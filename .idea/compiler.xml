@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="de.jensklingenberg.gradle-plugin.main" target="1.8" />
+      <module name="de.jensklingenberg.gradle-plugin.test" target="1.8" />
+      <module name="de.jensklingenberg.kotlin-compiler-native-plugin.main" target="1.8" />
+      <module name="de.jensklingenberg.kotlin-compiler-native-plugin.test" target="1.8" />
+      <module name="de.jensklingenberg.kotlin-compiler-plugin.main" target="1.8" />
+      <module name="de.jensklingenberg.kotlin-compiler-plugin.test" target="1.8" />
+      <module name="KotlinCompilerPluginHelloWorld.app.jvmMain" target="1.6" />
+      <module name="KotlinCompilerPluginHelloWorld.app.jvmTest" target="1.6" />
+      <module name="KotlinCompilerPluginHelloWorld.app.main" target="1.8" />
+      <module name="KotlinCompilerPluginHelloWorld.app.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

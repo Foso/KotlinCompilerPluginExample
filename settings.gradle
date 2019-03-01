@@ -1,0 +1,22 @@
+pluginManagement {
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == "kotlin-multiplatform") {
+                useModule("org.jetbrains.kotlin:kotlin-gradle-plugin:${requested.version}")
+            }
+        }
+    }
+}
+include ':app'
+include ':kotlin-compiler-native-plugin'
+include ':kotlin-compiler-plugin'
+include ':gradle-plugin'
+
+
+
+
+
+rootProject.name = 'KotlinCompilerPluginHelloWorld'
+
+
+enableFeaturePreview('GRADLE_METADATA')
