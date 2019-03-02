@@ -7,6 +7,7 @@ buildscript {
   }
   dependencies {
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    classpath 'com.github.jengelman.gradle.plugins:shadow:5.0.0'
 
   }
 
@@ -17,12 +18,20 @@ buildscript {
     }
   }
 }
+version = "0.0.1"
 
 apply plugin: "org.jetbrains.kotlin.jvm"
 apply plugin: "kotlin-kapt"
 apply plugin: "maven"
+apply plugin: 'com.github.johnrengelman.shadow'
+apply plugin: 'maven-publish'
 
-
+compileKotlin {
+  kotlinOptions {
+    jvmTarget = "1.8"
+    freeCompilerArgs = ['-Xskip-runtime-version-check', 'true']
+  }
+}
 
 group = "de.jensklingenberg"
 archivesBaseName = "kotlin-compiler-plugin"
@@ -30,9 +39,9 @@ version = "0.0.1"
 
 
 dependencies {
-  implementation gradleApi()
+  compile project(':compiler-plugin-shared')
 
-  compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+  implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
   compileOnly "org.jetbrains.kotlin:kotlin-compiler-embeddable:$kotlin_version"
 
   compileOnly "com.google.auto.service:auto-service:1.0-rc4"
@@ -40,6 +49,17 @@ dependencies {
 }
 
 
+
+task fatJar(type: Jar) {
+  manifest {
+    attributes 'Implementation-Title': 'Gradle Jar File Example',
+            'Implementation-Version': version,
+            'Main-Class': 'de.jensklingenberg.CommonComponentRegistrar'
+  }
+  baseName = project.name
+  from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+  with jar
+}
 
 uploadArchives {
   repositories {
@@ -49,4 +69,35 @@ uploadArchives {
   }
 }
 
+shadowJar {
+  manifest {
+    inheritFrom project.tasks.fatJar.manifest
+  }
+  baseName = project.name
+  version = "0.0.1"
+  classifier = null
+}
+
+publishing {
+  publications {
+    shadow(MavenPublication) { publication ->
+      project.shadow.component(publication)
+    }
+  }
+  repositories {
+    maven {
+      url = uri("${System.getProperty('user.home')}/.m2/repository")
+    }
+  }
+}
+
+
+
 build.finalizedBy(uploadArchives)
+
+
+kapt {
+  includeCompileClasspath = true
+}
+
+

@@ -12,6 +12,10 @@
       <module name="KotlinCompilerPluginHelloWorld.app.jvmTest" target="1.6" />
       <module name="KotlinCompilerPluginHelloWorld.app.main" target="1.8" />
       <module name="KotlinCompilerPluginHelloWorld.app.test" target="1.8" />
+      <module name="KotlinCompilerPluginHelloWorld.compiler-plugin-shared.main" target="1.8" />
+      <module name="KotlinCompilerPluginHelloWorld.compiler-plugin-shared.test" target="1.8" />
+      <module name="KotlinCompilerPluginHelloWorld.redacted-compiler-plugin-annotation.main" target="1.8" />
+      <module name="KotlinCompilerPluginHelloWorld.redacted-compiler-plugin-annotation.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

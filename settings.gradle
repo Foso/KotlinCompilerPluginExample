@@ -11,6 +11,7 @@ include ':app'
 include ':kotlin-compiler-native-plugin'
 include ':kotlin-compiler-plugin'
 include ':gradle-plugin'
+include ':compiler-plugin-shared'
 
 
 

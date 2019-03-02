@@ -1,6 +1,7 @@
 package de.jensklingenberg
 
 import com.google.auto.service.AutoService
+import de.jensklingenberg.compiler.Hello
 import org.jetbrains.kotlin.cli.common.CLIConfigurationKeys
 import org.jetbrains.kotlin.cli.common.config.kotlinSourceRoots
 import org.jetbrains.kotlin.cli.common.messages.CompilerMessageSeverity
@@ -20,7 +21,7 @@ class CommonComponentRegistrar : ComponentRegistrar {
 
         messageCollector.report(
             CompilerMessageSeverity.WARNING,
-            "***Hello from ***" + configuration.kotlinSourceRoots.firstOrNull()?.path + this::class.simpleName
+            "***Hello from ***" + Hello.name() + configuration.kotlinSourceRoots.firstOrNull()?.path + this::class.simpleName
         )
 
     }

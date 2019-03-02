@@ -17,17 +17,18 @@ class NativeCommandLineProcessor : CommandLineProcessor {
             optionName = "enabled", valueDescription = "<true|false>",
             description = "whether to enable the plugin or not"
         )
-
-
     )
 
     override fun processOption(
         option: AbstractCliOption,
         value: String,
         configuration: CompilerConfiguration
-    ) = when (option.optionName) {
-        "enabled" -> configuration.put(KEY_ENABLED, true)
-        else -> configuration.put(KEY_ENABLED, true)
+    ) {
+
+        return when (option.optionName) {
+            "enabled" -> configuration.put(KEY_ENABLED, true)
+            else -> configuration.put(KEY_ENABLED, true)
+        }
     }
 }
 
