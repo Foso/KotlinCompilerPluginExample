@@ -26,6 +26,18 @@ Inside the <kbd>plugin</kbd> folder run `./gradlew :kotlin-compiler-native-plugi
 
 Inside the <kbd>example</kbd> folder run `./gradlew :app:clean :app:build`
 
+### Project Structure
+#### Example
+* <kbd>app</kbd> - A Kotlin Multiplatform project which applies gradle plugin
+
+#### Plugin
+ *  <kbd>kotlin-compiler-native-plugin</kbd> - This module cotains the Kotlin Compiler Plugin for native targets
+ *  <kbd>kotlin-compiler-plugin</kbd> - This module cotains the Kotlin Compiler Plugin for JVM/JS targets
+ *  <kbd>gradle-plugin</kbd> - This module cotains the gradle plugin which trigger the two compiler plugins
+
+
+
+
 
 License
 -------
