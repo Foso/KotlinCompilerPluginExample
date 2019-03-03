@@ -19,10 +19,11 @@ This is an example project that shows how to create a Kotlin Compiler Plugin.
 
 ## Usage
 
-Run "./gradlew :kotlin-compiler-native-plugin:publishToMavenLocal :kotlin-compiler-plugin:publishToMavenLocal :gradle-plugin:build
-" inside the plugin folder
+Run `./gradlew :kotlin-compiler-native-plugin:publishToMavenLocal :kotlin-compiler-plugin:publishToMavenLocal :gradle-plugin:build` inside the <kbd>plugin</kbd> folder
 
-Then inside the example folder run "./gradlew :app:clean :app:build"
+
+
+Then inside the <kbd>exampkle</kbd> folder run `./gradlew :app:clean :app:build`
 
 
 License
