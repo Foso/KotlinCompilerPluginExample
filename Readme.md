@@ -62,3 +62,11 @@ This project is licensed under Apache License, Version 2.0
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+
+## Acknowledgments
+Projects that helped me understand how to setup the project:
+* [ZacSweers/redacted-compiler-plugin](https://github.com/ZacSweers/redacted-compiler-plugin)
+* [hotchemi/kotlin-compiler-plugin-example
+](https://github.com/hotchemi/kotlin-compiler-plugin-example)
+* [Takhion/sample-kotlin-compiler-plugin](https://github.com/Takhion/sample-kotlin-compiler-plugin)
