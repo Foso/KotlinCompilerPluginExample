@@ -35,11 +35,16 @@ Inside the <kbd>example</kbd> folder run `./gradlew :app:clean :app:build`
  *  <kbd>kotlin-compiler-plugin</kbd> - This module cotains the Kotlin Compiler Plugin for JVM/JS targets
  *  <kbd>gradle-plugin</kbd> - This module cotains the gradle plugin which trigger the two compiler plugins
 
+## ✍️ Feedback
+
+Feel free to send feedback on [Twitter](https://twitter.com/jklingenberg_) or [file an issue](https://github.com/foso/JK_KotlinCompilerPluginHelloWorld/issues/new). Feature requests are always welcome.
 
 
+### Find this project useful ? :heart:
+* Support it by clicking the :star: button on the upper right of this page. :v:
 
+## 📜 License
 
-License
 -------
 
 This project is licensed under Apache License, Version 2.0
