@@ -28,7 +28,7 @@ This is an example project that shows how to create a Kotlin Compiler Plugin.The
 
 ### 👷 Project Structure
 #### Example
-* <kbd>app</kbd> - A Kotlin Multiplatform project which applies gradle plugin
+* <kbd>app</kbd> - A Kotlin Multiplatform project which applies a gradle plugin(compiler.plugin.helloworld) to trigger the compiler plugin
 
 #### Plugin
  *  <kbd>kotlin-compiler-native-plugin</kbd> - This module cotains the Kotlin Compiler Plugin for native targets
