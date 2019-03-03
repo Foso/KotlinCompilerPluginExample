@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: Gradle Jar File Example
-Implementation-Version: 0.0.1
-Main-Class: de.jensklingenberg.NativeTestComponentRegistrar
-

@@ -1,1 +1,0 @@
-/home/jens/Code/2019/JK_KotlinCompilerPluginHelloWorld/plugin/compiler-plugin-shared/build/classes/kotlin/main/de/jensklingenberg/compiler/Hello$Companion.class:/home/jens/Code/2019/JK_KotlinCompilerPluginHelloWorld/plugin/compiler-plugin-shared/build/classes/kotlin/main/de/jensklingenberg/compiler/Hello.class
