@@ -7,6 +7,8 @@
 [![jCenter](https://img.shields.io/badge/v-1.0.0-green.svg
 )]()
 
+[![jCenter](https://img.shields.io/badge/Kotlin-1.3.21-green.svg
+)](https://github.com/Foso/Sheasy/blob/master/LICENSE)
 
 
 
