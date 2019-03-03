@@ -22,9 +22,9 @@ This is an example project that shows how to create a Kotlin Compiler Plugin.The
 
 ## Usage
 
-Inside the <kbd>plugin</kbd> folder run `./gradlew :kotlin-compiler-native-plugin:publishToMavenLocal :kotlin-compiler-plugin:publishToMavenLocal :gradle-plugin:build` 
+* Inside the <kbd>plugin</kbd> folder run `./gradlew :kotlin-compiler-native-plugin:publishToMavenLocal :kotlin-compiler-plugin:publishToMavenLocal :gradle-plugin:build` 
 
-Inside the <kbd>example</kbd> folder run `./gradlew :app:clean :app:build`
+* Inside the <kbd>example</kbd> folder run `./gradlew :app:clean :app:build`
 
 ### 👷 Project Structure
 #### Example
