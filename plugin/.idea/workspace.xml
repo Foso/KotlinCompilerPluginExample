@@ -2,203 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac5faa5b-8bdd-4053-b83c-ba6625eef191" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../example/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../example/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../example/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../example/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../example/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../example/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../example/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/data-container-format-version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/format-version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/gradle-format-version.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/redactedcompilerpluginannotationjar-classes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler-plugin-shared/build/libs/compiler-plugin-shared.jar" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/libs/compiler-plugin-shared.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler-plugin-shared/build/libs/redacted-compiler-plugin-annotation.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/compiler-plugin-shared/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/ivy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/ivy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/kaptGenerateStubsKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/kaptGenerateStubsKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/kotlin/kaptGenerateStubsKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/kotlin/kaptGenerateStubsKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle-plugin/build/libs/gradle-plugin-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build/libs/gradle-plugin-1.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/classes/kotlin/main/de/jensklingenberg/NativeTestComponentRegistrar.class" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/classes/kotlin/main/de/jensklingenberg/NativeTestComponentRegistrar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/ivy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/kotlin/kaptGenerateStubsKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/libs/kotlin-compiler-native-plugin-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/libs/kotlin-compiler-native-plugin-0.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/poms/pom-default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/publications/shadow/pom-default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/publications/shadow/pom-default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/NativeTestComponentRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/NativeTestComponentRegistrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/NativeTestComponentRegistrar.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/NativeTestComponentRegistrar.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/common/NativeCommandLineProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/common/NativeCommandLineProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/common/NativeCommandLineProcessor.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/common/NativeCommandLineProcessor.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/common/NativeCommandLineProcessorKt.java" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/common/NativeCommandLineProcessorKt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/common/NativeCommandLineProcessorKt.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/common/NativeCommandLineProcessorKt.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/tmp/shadowJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/NativeTestComponentRegistrar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/NativeTestComponentRegistrar.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/classes/kotlin/main/de/jensklingenberg/CommonComponentRegistrar.class" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/classes/kotlin/main/de/jensklingenberg/CommonComponentRegistrar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/ivy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/kotlin/kaptGenerateStubsKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/libs/kotlin-compiler-plugin-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/libs/kotlin-compiler-plugin-0.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/poms/pom-default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/publications/shadow/pom-default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/publications/shadow/pom-default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/CommonComponentRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/CommonComponentRegistrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/NativeCommandLineProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/NativeCommandLineProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/NativeCommandLineProcessor.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/NativeCommandLineProcessor.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/NativeCommandLineProcessorKt.java" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/NativeCommandLineProcessorKt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/NativeCommandLineProcessorKt.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/kapt3/stubs/main/de/jensklingenberg/NativeCommandLineProcessorKt.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build/tmp/shadowJar/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kotlin-compiler-plugin/src/main/java/de/jensklingenberg/CommonComponentRegistrar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/src/main/java/de/jensklingenberg/CommonComponentRegistrar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleExtension.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradlePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradlePlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleSubplugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleSubplugin.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -240,6 +48,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/compiler-plugin-shared">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -263,28 +74,7 @@
                 <item name="plugin" type="f1a62948:ProjectNode" />
                 <item name=":kotlin-compiler-native-plugin" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="publishing" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="plugin" type="f1a62948:ProjectNode" />
-                <item name=":kotlin-compiler-native-plugin" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="shadow" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="plugin" type="f1a62948:ProjectNode" />
-                <item name=":kotlin-compiler-native-plugin" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="upload" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="plugin" type="f1a62948:ProjectNode" />
-                <item name=":kotlin-compiler-native-plugin" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -304,20 +94,6 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="plugin" type="f1a62948:ProjectNode" />
-                <item name=":kotlin-compiler-plugin" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="publishing" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="plugin" type="f1a62948:ProjectNode" />
-                <item name=":kotlin-compiler-plugin" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="upload" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -327,20 +103,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradlePlugin.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleSubplugin.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="225">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleSubplugin.kt">
+        <entry file="file://$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradlePlugin.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="86" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="86" />
+            <state relative-caret-position="150">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -348,22 +124,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kotlin-compiler-plugin/src/main/java/de/jensklingenberg/CommonComponentRegistrar.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-end-line="25" />
+            <state relative-caret-position="195">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/common/NativeCommandLineProcessor.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kotlin-compiler-plugin/src/main/java/de/jensklingenberg/NativeCommandLineProcessor.kt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/common/NativeCommandLineProcessor.kt">
+        <entry file="file://$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/NativeTestComponentRegistrar.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="96">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -371,31 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradle-plugin/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/NativeTestComponentRegistrar.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kotlin-compiler-native-plugin/build.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleExtension.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="345">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -408,20 +174,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradlePlugin.kt" />
         <option value="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleExtension.kt" />
-        <option value="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleSubplugin.kt" />
         <option value="$PROJECT_DIR$/gradle-plugin/build.gradle" />
         <option value="$PROJECT_DIR$/kotlin-compiler-plugin/src/main/java/de/jensklingenberg/CommonComponentRegistrar.kt" />
+        <option value="$PROJECT_DIR$/kotlin-compiler-plugin/src/main/java/de/jensklingenberg/NativeCommandLineProcessor.kt" />
         <option value="$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/NativeTestComponentRegistrar.kt" />
+        <option value="$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/common/NativeCommandLineProcessor.kt" />
+        <option value="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradlePlugin.kt" />
+        <option value="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleSubplugin.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-3" />
+    <option name="x" value="2557" />
     <option name="y" value="-2" />
-    <option name="width" value="2566" />
-    <option name="height" value="1420" />
+    <option name="width" value="1446" />
+    <option name="height" value="904" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -429,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -598,11 +365,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551621476706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551649193115" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../example" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -618,17 +386,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.plugin:kotlin-compiler-plugin [publishToMavenLocal]">
+  <component name="RunManager" selected="Gradle.plugin:gradle-plugin [build]">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="plugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="plugin:compiler-plugin-shared [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/compiler-plugin-shared" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -644,10 +412,10 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="plugin [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="plugin:gradle-plugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/gradle-plugin" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -655,7 +423,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -663,7 +431,7 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="plugin:kotlin-compiler-native-plugin [publishShadowPublicationToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="plugin:kotlin-compiler-native-plugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/kotlin-compiler-native-plugin" />
@@ -674,7 +442,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="publishShadowPublicationToMavenLocal" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -682,10 +450,10 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="plugin:kotlin-compiler-native-plugin [publishToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="plugin:kotlin-compiler-plugin [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/kotlin-compiler-native-plugin" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kotlin-compiler-plugin" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -693,7 +461,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="publishToMavenLocal" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -738,11 +506,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.plugin:gradle-plugin [build]" />
+        <item itemvalue="Gradle.plugin:kotlin-compiler-native-plugin [build]" />
+        <item itemvalue="Gradle.plugin:kotlin-compiler-plugin [build]" />
+        <item itemvalue="Gradle.plugin:compiler-plugin-shared [build]" />
         <item itemvalue="Gradle.plugin:kotlin-compiler-plugin [publishToMavenLocal]" />
-        <item itemvalue="Gradle.plugin:kotlin-compiler-native-plugin [publishToMavenLocal]" />
-        <item itemvalue="Gradle.plugin [build]" />
-        <item itemvalue="Gradle.plugin [clean]" />
-        <item itemvalue="Gradle.plugin:kotlin-compiler-native-plugin [publishShadowPublicationToMavenLocal]" />
       </list>
     </recent_temporary>
   </component>
@@ -760,9 +528,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-2" width="2566" height="1420" extended-state="6" />
+    <frame x="2557" y="-2" width="1446" height="904" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25615567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -771,7 +540,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38142747" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3811944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -779,7 +548,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="9" weight="0.38373572" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32909784" />
       <window_info anchor="bottom" id="Flutter Performance" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -788,7 +557,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Flutter Inspector" order="5" />
       <window_info anchor="right" id="Flutter Outline" order="6" />
-      <window_info anchor="right" id="Gradle" order="7" visible="true" weight="0.2839555" />
+      <window_info anchor="right" id="Gradle" order="7" visible="true" weight="0.16452074" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="10" />
@@ -805,58 +574,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradlePlugin.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleSubplugin.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="86" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/common/NativeCommandLineProcessor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kotlin-compiler-native-plugin/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleExtension.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
+        <state relative-caret-position="-540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle-plugin/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlin-compiler-plugin/src/main/java/de/jensklingenberg/NativeCommandLineProcessor.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kotlin-compiler-plugin/src/main/java/de/jensklingenberg/CommonComponentRegistrar.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-end-line="25" />
+        <state relative-caret-position="345">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/NativeTestComponentRegistrar.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="96">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlin-compiler-plugin/src/main/java/de/jensklingenberg/CommonComponentRegistrar.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlin-compiler-plugin/src/main/java/de/jensklingenberg/NativeCommandLineProcessor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/common/NativeCommandLineProcessor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="2" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradlePlugin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleSubplugin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>

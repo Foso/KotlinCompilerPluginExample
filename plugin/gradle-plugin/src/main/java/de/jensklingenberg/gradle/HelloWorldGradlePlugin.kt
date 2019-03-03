@@ -1,10 +1,14 @@
 package de.jensklingenberg.gradle
 
-class HelloWorldGradlePlugin : org.gradle.api.Plugin<org.gradle.api.Project> {
+open class HelloWorldGradlePlugin : org.gradle.api.Plugin<org.gradle.api.Project> {
+
+    /** If [false], this plugin won't actually be applied */
+    var enabled: Boolean = true
+
     override fun apply(project: org.gradle.api.Project) {
         project.extensions.create(
             "helloWorld",
-            HelloWorldGradleExtension::class.java
+            this::class.java
         )
     }
 }

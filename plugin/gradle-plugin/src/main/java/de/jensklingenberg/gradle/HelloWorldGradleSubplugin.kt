@@ -19,8 +19,8 @@ class HelloWorldGradleSubplugin : KotlinGradleSubplugin<AbstractCompile> {
         androidProjectHandler: Any?,
         kotlinCompilation: KotlinCompilation<KotlinCommonOptions>?
     ): List<SubpluginOption> {
-        val extension = project.extensions.findByType(HelloWorldGradleExtension::class.java)
-            ?: HelloWorldGradleExtension()
+        val extension = project.extensions.findByType(HelloWorldGradlePlugin::class.java)
+            ?: HelloWorldGradlePlugin()
 
         val enabledOption = SubpluginOption(key = "enabled", value = extension.enabled.toString())
         return listOf(enabledOption)
