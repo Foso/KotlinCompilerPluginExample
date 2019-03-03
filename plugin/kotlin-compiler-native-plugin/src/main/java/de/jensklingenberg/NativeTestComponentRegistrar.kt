@@ -2,6 +2,7 @@ package de.jensklingenberg
 
 import com.google.auto.service.AutoService
 import com.intellij.mock.MockProject
+import de.jensklingenberg.common.KEY_ENABLED
 import de.jensklingenberg.compiler.Hello
 import org.jetbrains.kotlin.cli.common.CLIConfigurationKeys
 import org.jetbrains.kotlin.cli.common.config.kotlinSourceRoots
@@ -13,9 +14,12 @@ import org.jetbrains.kotlin.config.CompilerConfiguration
 @AutoService(ComponentRegistrar::class)
 class NativeTestComponentRegistrar : ComponentRegistrar {
 
-    lateinit var test: String
 
     override fun registerProjectComponents(project: MockProject, configuration: CompilerConfiguration) {
+
+        if (configuration[KEY_ENABLED] == false) {
+            return
+        }
 
         val messageCollector = configuration.get(CLIConfigurationKeys.MESSAGE_COLLECTOR_KEY, MessageCollector.NONE)
 

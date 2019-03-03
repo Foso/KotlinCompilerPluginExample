@@ -26,7 +26,7 @@ class NativeCommandLineProcessor : CommandLineProcessor {
     ) {
 
         return when (option.optionName) {
-            "enabled" -> configuration.put(KEY_ENABLED, true)
+            "enabled" -> configuration.put(KEY_ENABLED, value.toBoolean())
             else -> configuration.put(KEY_ENABLED, true)
         }
     }

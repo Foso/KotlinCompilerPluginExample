@@ -17,6 +17,10 @@ class CommonComponentRegistrar : ComponentRegistrar {
         configuration: CompilerConfiguration
     ) {
 
+        if (configuration[KEY_ENABLED] == false) {
+            return
+        }
+
         val messageCollector = configuration.get(CLIConfigurationKeys.MESSAGE_COLLECTOR_KEY, MessageCollector.NONE)
 
         configuration.kotlinSourceRoots.forEach {
