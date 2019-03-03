@@ -13,7 +13,7 @@
 
 
 ## Introduction 🙋‍♂️
-This is an example project that shows how to create a Kotlin Compiler Plugin. The Plugin to 
+This is an example project that shows how to create a Kotlin Compiler Plugin.The plugin will print "Hello from" and the name of the file that is being compiled, as a compiler warning to the terminal log.
 
 <p>
     <img src ="https://raw.githubusercontent.com/Foso/JK_KotlinCompilerPluginHelloWorld/master/docs/screenshot.png" />
