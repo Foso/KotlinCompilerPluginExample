@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac5faa5b-8bdd-4053-b83c-ba6625eef191" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/compiler-plugin-shared/plugin.compiler-plugin-shared.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/compiler-plugin-shared/plugin.compiler-plugin-shared.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/compiler-plugin-shared/plugin.compiler-plugin-shared.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/app_js.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/app_jvm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_auto_auto_common_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_auto_common_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_auto_service_auto_service_1_0_rc4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_service_auto_service_1_0_rc4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_0_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_guava_guava_23_5_jre.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_guava_23_5_jre.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_checkerframework_checker_qual_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_checkerframework_checker_qual_2_0_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_intellij_deps_trove4j_1_0_20181211.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_intellij_deps_trove4j_1_0_20181211.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_compiler_1_3_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_compiler_1_3_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_compiler_embeddable_1_3_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_compiler_embeddable_1_3_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_gradle_plugin_api_1_3_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_gradle_plugin_api_1_3_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_native_utils_1_3_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_native_utils_1_3_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_3_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_runtime_1_3_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_script_runtime_1_3_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_js_1_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_annotations_common_1_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_js_1_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_3_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app.linuxMain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app.linuxTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/2019.KotlinCompilerPluginHelloWorld.app.commonMain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/2019.KotlinCompilerPluginHelloWorld.app.commonTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/2019.KotlinCompilerPluginHelloWorld.app.jsMain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/2019.KotlinCompilerPluginHelloWorld.app.jsTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/2019.KotlinCompilerPluginHelloWorld.app.jvmMain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/2019.KotlinCompilerPluginHelloWorld.app.jvmTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/KotlinCompilerPluginHelloWorld.app.commonMain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/KotlinCompilerPluginHelloWorld.app.commonTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/KotlinCompilerPluginHelloWorld.app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/KotlinCompilerPluginHelloWorld.app.jsMain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/KotlinCompilerPluginHelloWorld.app.jsTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/KotlinCompilerPluginHelloWorld.app.jvmMain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/KotlinCompilerPluginHelloWorld.app.jvmTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/KotlinCompilerPluginHelloWorld.app.linuxMain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/app/KotlinCompilerPluginHelloWorld.app.linuxTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/compiler-plugin-shared/KotlinCompilerPluginHelloWorld.compiler-plugin-shared.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/compiler-plugin-shared/KotlinCompilerPluginHelloWorld.compiler-plugin-shared.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/compiler-plugin-shared/KotlinCompilerPluginHelloWorld.compiler-plugin-shared.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/gradle-plugin/gradle-plugin.de.jensklingenberg.gradle-plugin.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/gradle-plugin/gradle-plugin.de.jensklingenberg.gradle-plugin.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kotlin-compiler-native-plugin/kotlin-compiler-native-plugin.de.jensklingenberg.kotlin-compiler-native-plugin.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kotlin-compiler-native-plugin/kotlin-compiler-native-plugin.de.jensklingenberg.kotlin-compiler-native-plugin.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kotlin-compiler-plugin/kotlin-compiler-plugin.de.jensklingenberg.kotlin-compiler-plugin.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules/kotlin-compiler-plugin/kotlin-compiler-plugin.de.jensklingenberg.kotlin-compiler-plugin.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KotlinCompilerPluginHelloWorld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../example/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/commonMain/kotlin/sample/Sample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example/app/src/commonMain/kotlin/sample/Sample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/commonTest/kotlin/sample/SampleTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example/app/src/commonTest/kotlin/sample/SampleTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/jsMain/kotlin/sample/SampleJs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example/app/src/jsMain/kotlin/sample/SampleJs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/jsTest/kotlin/sample/SampleTestsJS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example/app/src/jsTest/kotlin/sample/SampleTestsJS.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/jvmMain/kotlin/sample/SampleJvm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example/app/src/jvmMain/kotlin/sample/SampleJvm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/jvmTest/kotlin/sample/SampleTestsJVM.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example/app/src/jvmTest/kotlin/sample/SampleTestsJVM.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/linuxMain/kotlin/sample/SampleLinux.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example/app/src/linuxMain/kotlin/sample/SampleLinux.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/linuxTest/kotlin/sample/SampleTestsNative.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../example/app/src/linuxTest/kotlin/sample/SampleTestsNative.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/data-container-format-version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/data-container-format-version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/format-version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/format-version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/gradle-format-version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/gradle-format-version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/kotlin/redactedcompilerpluginannotationjar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/kotlin/redactedcompilerpluginannotationjar-classes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/libs/redacted-compiler-plugin-annotation.jar" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/libs/redacted-compiler-plugin-annotation.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/out/production/classes/META-INF/redacted-compiler-plugin.redacted-compiler-plugin-annotation.main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/out/production/classes/META-INF/redacted-compiler-plugin.redacted-compiler-plugin-annotation.main.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/out/production/classes/io/sweers/redacted/annotation/Redacted.class" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/out/production/classes/io/sweers/redacted/annotation/Redacted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compiler-plugin-shared/src/main/kotlin/de/jensklingenberg/compiler/Hello.kt" beforeDir="false" afterPath="$PROJECT_DIR$/compiler-plugin-shared/src/main/kotlin/de/jensklingenberg/compiler/Hello.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle-plugin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleExtension.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradlePlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradlePlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleSubplugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradleSubplugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-compiler-native-plugin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/NativeTestComponentRegistrar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/NativeTestComponentRegistrar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/common/NativeCommandLineProcessor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-native-plugin/src/main/java/de/jensklingenberg/common/NativeCommandLineProcessor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-compiler-plugin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-compiler-plugin/src/main/java/de/jensklingenberg/CommonComponentRegistrar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/src/main/java/de/jensklingenberg/CommonComponentRegistrar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-compiler-plugin/src/main/java/de/jensklingenberg/NativeCommandLineProcessor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-compiler-plugin/src/main/java/de/jensklingenberg/NativeCommandLineProcessor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../example/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test.iml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/compiler-plugin-shared/.gradle/" />
+    <ignored path="$PROJECT_DIR$/compiler-plugin-shared/build/" />
+    <ignored path="$PROJECT_DIR$/compiler-plugin-shared/out/" />
+    <ignored path="$PROJECT_DIR$/gradle-plugin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/gradle-plugin/build/" />
+    <ignored path="$PROJECT_DIR$/gradle-plugin/out/" />
+    <ignored path="$PROJECT_DIR$/kotlin-compiler-native-plugin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/kotlin-compiler-native-plugin/build/" />
+    <ignored path="$PROJECT_DIR$/kotlin-compiler-native-plugin/out/" />
+    <ignored path="$PROJECT_DIR$/kotlin-compiler-plugin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/kotlin-compiler-plugin/build/" />
+    <ignored path="$PROJECT_DIR$/kotlin-compiler-plugin/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2557" />
+    <option name="y" value="-2" />
+    <option name="width" value="1446" />
+    <option name="height" value="904" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="plugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac5faa5b-8bdd-4053-b83c-ba6625eef191" name="Default Changelist" comment="" />
+      <created>1551570764970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551570764970</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2557" y="-2" width="1446" height="904" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.44992846" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.38373572" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin.iml" filepath="$PROJECT_DIR$/plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compiler-plugin-shared/plugin.compiler-plugin-shared.iml" filepath="$PROJECT_DIR$/.idea/modules/compiler-plugin-shared/plugin.compiler-plugin-shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compiler-plugin-shared/plugin.compiler-plugin-shared.main.iml" filepath="$PROJECT_DIR$/.idea/modules/compiler-plugin-shared/plugin.compiler-plugin-shared.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compiler-plugin-shared/plugin.compiler-plugin-shared.test.iml" filepath="$PROJECT_DIR$/.idea/modules/compiler-plugin-shared/plugin.compiler-plugin-shared.test.iml" />
+    </modules>
+  </component>
+</project>
