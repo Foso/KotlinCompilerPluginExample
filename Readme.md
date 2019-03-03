@@ -13,20 +13,38 @@
 
 
 ## Introduction 🙋‍♂️
-This is an example project that shows how to create a Kotlin Compiler Plugin.
+This is an example project that shows how to create a Kotlin Compiler Plugin.The plugin will print "Hello from" and the name of the file that is being compiled, as a compiler warning to the terminal log.
 
-
+<p>
+    <img src ="https://raw.githubusercontent.com/Foso/JK_KotlinCompilerPluginHelloWorld/master/docs/screenshot.png" />
+ 
+</p>
 
 ## Usage
 
-Run `./gradlew :kotlin-compiler-native-plugin:publishToMavenLocal :kotlin-compiler-plugin:publishToMavenLocal :gradle-plugin:build` inside the <kbd>plugin</kbd> folder
+* Inside the <kbd>plugin</kbd> folder run `./gradlew :kotlin-compiler-native-plugin:publishToMavenLocal :kotlin-compiler-plugin:publishToMavenLocal :gradle-plugin:build` 
+
+* Inside the <kbd>example</kbd> folder run `./gradlew :app:clean :app:build`
+
+### 👷 Project Structure
+#### Example
+* <kbd>app</kbd> - A Kotlin Multiplatform project which applies a gradle plugin(compiler.plugin.helloworld) whichs triggers the compiler plugin. You have to build the gradle plugin from <kbd>plugin/gradle-plugin</kbd> first
+
+#### Plugin
+ *  <kbd>kotlin-compiler-native-plugin</kbd> - This module cotains the Kotlin Compiler Plugin for native targets
+ *  <kbd>kotlin-compiler-plugin</kbd> - This module cotains the Kotlin Compiler Plugin for JVM/JS targets
+ *  <kbd>gradle-plugin</kbd> - This module cotains the gradle plugin which trigger the two compiler plugins
+
+## ✍️ Feedback
+
+Feel free to send feedback on [Twitter](https://twitter.com/jklingenberg_) or [file an issue](https://github.com/foso/JK_KotlinCompilerPluginHelloWorld/issues/new). Feature requests are always welcome.
 
 
+### Find this project useful ? :heart:
+* Support it by clicking the :star: button on the upper right of this page. :v:
 
-Then inside the <kbd>exampkle</kbd> folder run `./gradlew :app:clean :app:build`
+## 📜 License
 
-
-License
 -------
 
 This project is licensed under Apache License, Version 2.0
@@ -44,3 +62,11 @@ This project is licensed under Apache License, Version 2.0
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+
+## Acknowledgments
+Projects that helped me understand how to setup the project:
+* [ZacSweers/redacted-compiler-plugin](https://github.com/ZacSweers/redacted-compiler-plugin)
+* [hotchemi/kotlin-compiler-plugin-example
+](https://github.com/hotchemi/kotlin-compiler-plugin-example)
+* [Takhion/sample-kotlin-compiler-plugin](https://github.com/Takhion/sample-kotlin-compiler-plugin)
