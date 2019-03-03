@@ -28,6 +28,8 @@ At first you need to compile the plugins:
 Then:
 * Inside the <kbd>example</kbd> folder run `./gradlew :app:clean :app:build`
 
+The plugin is only active when the build cache is changed. This is why you need to run "clean" before building, when you want to see the log output again.
+
 ### 👷 Project Structure
 #### Example
 * <kbd>app</kbd> - A Kotlin Multiplatform project which applies a gradle plugin(compiler.plugin.helloworld) whichs triggers the compiler plugin. You have to build the gradle plugin from <kbd>plugin/gradle-plugin</kbd> first
