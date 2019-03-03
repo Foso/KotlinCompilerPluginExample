@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KotlinCompilerPluginHelloWorld.iml" filepath="$PROJECT_DIR$/KotlinCompilerPluginHelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.commonMain.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.commonMain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.commonTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.commonTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.jsMain.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.jsMain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.jsTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.jsTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.jvmMain.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.jvmMain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.jvmTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.jvmTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.linuxMain.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.linuxMain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.linuxTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/KotlinCompilerPluginHelloWorld.app.linuxTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gradle-plugin/de.jensklingenberg.gradle-plugin.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-native-plugin/de.jensklingenberg.kotlin-compiler-native-plugin.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlin-compiler-plugin/de.jensklingenberg.kotlin-compiler-plugin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JK_KotlinCompilerPluginHelloWorld.iml" filepath="$PROJECT_DIR$/.idea/JK_KotlinCompilerPluginHelloWorld.iml" />
     </modules>
   </component>
 </project>
