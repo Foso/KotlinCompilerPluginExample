@@ -11,32 +11,36 @@ import org.jetbrains.kotlin.gradle.plugin.SubpluginOption
 
 @AutoService(KotlinGradleSubplugin::class) // don't forget!
 class HelloWorldGradleSubplugin : KotlinGradleSubplugin<AbstractCompile> {
-  override fun apply(project: Project, kotlinCompile: AbstractCompile, javaCompile: AbstractCompile?, variantData: Any?, androidProjectHandler: Any?, kotlinCompilation: KotlinCompilation<KotlinCommonOptions>?): List<SubpluginOption> {
-    val extension = project.extensions.findByType(HelloWorldGradleExtension::class.java)
+    override fun apply(
+        project: Project,
+        kotlinCompile: AbstractCompile,
+        javaCompile: AbstractCompile?,
+        variantData: Any?,
+        androidProjectHandler: Any?,
+        kotlinCompilation: KotlinCompilation<KotlinCommonOptions>?
+    ): List<SubpluginOption> {
+        val extension = project.extensions.findByType(HelloWorldGradleExtension::class.java)
             ?: HelloWorldGradleExtension()
 
+        val enabledOption = SubpluginOption(key = "enabled", value = extension.enabled.toString())
+        return listOf(enabledOption)
+
+    }
+
+    override fun isApplicable(project: Project, task: AbstractCompile) =
+        project.plugins.hasPlugin(HelloWorldGradlePlugin::class.java)
 
 
-    val annotationOptions = extension.annotations.map { SubpluginOption(key = "Annotation", value = it) }
-    val enabledOption = SubpluginOption(key = "enabled", value = extension.enabled.toString())
-    return annotationOptions + enabledOption
+    /**
+     * Just needs to be consistent with the key for CommandLineProcessor#pluginId
+     */
+    override fun getCompilerPluginId(): String = "helloWorldPlugin"
 
-  }
-
-  override fun isApplicable(project: Project, task: AbstractCompile) =
-      project.plugins.hasPlugin(HelloWorldGradlePlugin::class.java)
-
-
-  /**
-   * Just needs to be consistent with the key for CommandLineProcessor#pluginId
-   */
-  override fun getCompilerPluginId(): String = "helloWorldPlugin"
-
-  override fun getPluginArtifact(): SubpluginArtifact = SubpluginArtifact(
-      groupId = "de.jensklingenberg",
-      artifactId = "kotlin-compiler-plugin",
-      version = "0.0.1" // remember to bump this version before any release!
-  )
+    override fun getPluginArtifact(): SubpluginArtifact = SubpluginArtifact(
+        groupId = "de.jensklingenberg",
+        artifactId = "kotlin-compiler-plugin",
+        version = "0.0.1" // remember to bump this version before any release!
+    )
 
     override fun getNativeCompilerPluginArtifact(): SubpluginArtifact = SubpluginArtifact(
         groupId = "de.jensklingenberg",

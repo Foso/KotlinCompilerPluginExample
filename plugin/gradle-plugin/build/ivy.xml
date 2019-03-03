@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:m="http://ant.apache.org/ivy/maven">
-  <info organisation="de.jensklingenberg" module="gradle-plugin" revision="1.0.0" status="integration" publication="20190303004052"/>
+  <info organisation="de.jensklingenberg" module="gradle-plugin" revision="1.0.0" status="integration" publication="20190303134535"/>
   <configurations>
     <conf name="annotationProcessor" visibility="private"/>
     <conf name="api" visibility="private" extends="compile"/>
@@ -47,7 +47,6 @@
     <artifact name="gradle-plugin" type="jar" ext="jar" conf="apiElements,archives,runtime,runtimeElements"/>
   </publications>
   <dependencies>
-    <dependency org="org.jetbrains.kotlin" name="kotlin-compiler-embeddable" rev="1.3.21" conf="compileOnly-&gt;default"/>
     <dependency org="com.google.auto.service" name="auto-service" rev="1.0-rc4" conf="compileOnly-&gt;default"/>
     <dependency org="org.jetbrains.kotlin" name="kotlin-stdlib" rev="1.3.21" conf="implementation-&gt;default"/>
     <dependency org="org.jetbrains.kotlin" name="kotlin-gradle-plugin-api" rev="1.3.21" conf="implementation-&gt;default"/>

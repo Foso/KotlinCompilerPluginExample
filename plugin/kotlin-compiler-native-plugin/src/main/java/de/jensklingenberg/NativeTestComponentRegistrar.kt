@@ -13,7 +13,7 @@ import org.jetbrains.kotlin.config.CompilerConfiguration
 @AutoService(ComponentRegistrar::class)
 class NativeTestComponentRegistrar : ComponentRegistrar {
 
-lateinit var test : String
+    lateinit var test: String
 
     override fun registerProjectComponents(project: MockProject, configuration: CompilerConfiguration) {
 
@@ -22,10 +22,9 @@ lateinit var test : String
         configuration.kotlinSourceRoots.filter { !it.isCommon }.forEach {
             messageCollector.report(
                 CompilerMessageSeverity.WARNING,
-                "*** Hello from ***" +Hello.name() + configuration.kotlinSourceRoots.firstOrNull()?.path
+                "*** Hello from ***" + Hello.name() + configuration.kotlinSourceRoots.firstOrNull()?.path
             )
         }
-
 
 
     }

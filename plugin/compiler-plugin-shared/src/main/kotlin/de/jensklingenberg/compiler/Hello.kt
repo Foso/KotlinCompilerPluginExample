@@ -1,8 +1,8 @@
 package de.jensklingenberg.compiler
 
-class Hello{
+class Hello {
     companion object {
-        fun name():String{
+        fun name(): String {
             return "Hallo"
         }
     }

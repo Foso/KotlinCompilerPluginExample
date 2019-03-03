@@ -10,7 +10,7 @@
           <option name="apiVersion" value="1.3" />
           <option name="pluginOptions">
             <array>
-              <option value="plugin:helloWorldPlugin:enabled=true" />
+              <option value="plugin:helloWorldPlugin:enabled=false" />
             </array>
           </option>
           <option name="pluginClasspaths">

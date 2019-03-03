@@ -1,4 +1,3 @@
-
 buildscript {
 
 
@@ -19,25 +18,19 @@ buildscript {
 
     allprojects {
         repositories {
-
             mavenCentral()
-
             mavenLocal()
-
             jcenter()
         }
     }
 }
 apply plugin: 'kotlin-multiplatform'
-
-
 apply plugin: "compiler.plugin.helloworld"
 
 
 helloWorld {
-    enabled = true
+    enabled = false
 }
-
 
 
 kotlin {
@@ -82,7 +75,7 @@ kotlin {
             }
         }
         linuxMain {
-            
+
         }
         linuxTest {
         }
