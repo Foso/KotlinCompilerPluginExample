@@ -13,7 +13,7 @@
 
 
 ## Introduction 🙋‍♂️
-This is an example project that shows how to create a Kotlin Compiler Plugin.
+This is an example project that shows how to create a Kotlin Compiler Plugin. The Plugin to 
 
 <p>
     <img src ="https://raw.githubusercontent.com/Foso/JK_KotlinCompilerPluginHelloWorld/master/docs/screenshot.png" />
