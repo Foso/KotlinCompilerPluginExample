@@ -19,10 +19,10 @@ class NativeTestComponentRegistrar : ComponentRegistrar {
 
         val messageCollector = configuration.get(CLIConfigurationKeys.MESSAGE_COLLECTOR_KEY, MessageCollector.NONE)
 
-        configuration.kotlinSourceRoots.filter { !it.isCommon }.forEach {
+        configuration.kotlinSourceRoots.forEach {
             messageCollector.report(
                 CompilerMessageSeverity.WARNING,
-                "*** Hello from ***" + Hello.name() + configuration.kotlinSourceRoots.firstOrNull()?.path
+                "*** Hello from ***" + it.path
             )
         }
 

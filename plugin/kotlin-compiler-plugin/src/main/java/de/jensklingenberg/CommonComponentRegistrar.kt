@@ -19,10 +19,12 @@ class CommonComponentRegistrar : ComponentRegistrar {
 
         val messageCollector = configuration.get(CLIConfigurationKeys.MESSAGE_COLLECTOR_KEY, MessageCollector.NONE)
 
-        messageCollector.report(
-            CompilerMessageSeverity.WARNING,
-            "***Hello from ***" + Hello.name() + configuration.kotlinSourceRoots.firstOrNull()?.path + this::class.simpleName
-        )
+        configuration.kotlinSourceRoots.forEach {
+            messageCollector.report(
+                CompilerMessageSeverity.WARNING,
+                "*** Hello from ***" + it.path
+            )
+        }
 
     }
 }
