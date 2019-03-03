@@ -39,11 +39,11 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../app/src/jsMain">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/jsMain/kotlin" type="kotlin-source" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/jsMain/resources" type="kotlin-resource" />
     </content>
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="KotlinCompilerPluginHelloWorld.app.commonMain" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.3.21" level="project" />
     <orderEntry type="module-library">
       <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21">
         <CLASSES>
@@ -55,6 +55,5 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-js:1.3.21" level="project" />
   </component>
 </module>

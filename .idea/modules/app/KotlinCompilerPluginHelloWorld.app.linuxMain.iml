@@ -34,33 +34,25 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../app/src/linuxMain">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/linuxMain/kotlin" type="kotlin-source" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/linuxMain/resources" type="kotlin-resource" />
     </content>
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="KotlinCompilerPluginHelloWorld.app.commonMain" />
     <orderEntry type="module-library">
-      <library>
+      <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21">
         <CLASSES>
-          <root url="file://$USER_HOME$/.konan/kotlin-native-linux-1.1.2/klib/common/stdlib" />
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/.konan/kotlin-native-linux-1.1.2/klib/platform/linux_x64/zlib" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$USER_HOME$/.konan/kotlin-native-linux-1.1.2/klib/platform/linux_x64/posix" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-linux-1.1.2/klib/platform/linux_x64/iconv" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -78,21 +70,28 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/.konan/kotlin-native-linux-1.1.2/klib/platform/linux_x64/iconv" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-linux-1.1.2/klib/platform/linux_x64/posix" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21">
+      <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar!/" />
+          <root url="file://$USER_HOME$/.konan/kotlin-native-linux-1.1.2/klib/platform/linux_x64/zlib" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES>
-          <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar!/" />
-        </SOURCES>
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/.konan/kotlin-native-linux-1.1.2/klib/common/stdlib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
   </component>

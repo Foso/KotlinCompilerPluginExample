@@ -5,8 +5,8 @@
       <configuration version="3" platform="JavaScript " useProjectSettings="false" isTestModule="true" externalProjectId=":app">
         <sourceSets>
           <sourceSet>KotlinCompilerPluginHelloWorld.app.jsMain</sourceSet>
-          <sourceSet>KotlinCompilerPluginHelloWorld.app.commonTest</sourceSet>
           <sourceSet>KotlinCompilerPluginHelloWorld.app.commonMain</sourceSet>
+          <sourceSet>KotlinCompilerPluginHelloWorld.app.commonTest</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <compilerSettings />
@@ -41,7 +41,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../app/src/jsTest">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/jsTest/kotlin" type="kotlin-test" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/jsTest/resources" type="kotlin-test-resource" />
     </content>
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -61,8 +60,8 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="module" module-name="KotlinCompilerPluginHelloWorld.app.commonMain" scope="TEST" />
     <orderEntry type="module" module-name="KotlinCompilerPluginHelloWorld.app.commonTest" scope="TEST" />
+    <orderEntry type="module" module-name="KotlinCompilerPluginHelloWorld.app.commonMain" scope="TEST" />
   </component>
   <component name="TestModuleProperties" production-module="KotlinCompilerPluginHelloWorld.app.jsMain" />
 </module>

@@ -27,7 +27,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../app/src/commonTest">
       <sourceFolder url="file://$MODULE_DIR$/../../../app/src/commonTest/kotlin" type="kotlin-test" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/commonTest/resources" type="kotlin-test-resource" />
     </content>
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

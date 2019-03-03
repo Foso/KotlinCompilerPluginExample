@@ -6,7 +6,7 @@
         <compilerSettings />
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/../../../kotlin-compiler-native-plugin/build/classes/kotlin/test" />
-          <option name="classpath" value="$MODULE_DIR$/../../../kotlin-compiler-native-plugin/build/classes/kotlin/main:/home/jens/Code/2019/KotlinCompilerPluginHelloWorld/kotlin-compiler-native-plugin/build/tmp/kapt3/classes/main:/home/jens/.m2/repository/org/jetbrains/kotlin/kotlin-compiler/1.3.21/kotlin-compiler-1.3.21.jar:/home/jens/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.3.21/kotlin-reflect-1.3.21.jar:/home/jens/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.21/kotlin-stdlib-1.3.21.jar:/home/jens/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.21/kotlin-stdlib-common-1.3.21.jar:/home/jens/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/jens/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.21/kotlin-script-runtime-1.3.21.jar:/home/jens/.m2/repository/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.jar" />
+          <option name="classpath" value="$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-compiler/1.3.21/kotlin-compiler-1.3.21.jar:/home/jens/.m2/repository/org/jetbrains/kotlin/kotlin-reflect/1.3.21/kotlin-reflect-1.3.21.jar:/home/jens/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.3.21/kotlin-stdlib-1.3.21.jar:/home/jens/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.21/kotlin-stdlib-common-1.3.21.jar:/home/jens/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/home/jens/.m2/repository/org/jetbrains/kotlin/kotlin-script-runtime/1.3.21/kotlin-script-runtime-1.3.21.jar:/home/jens/.m2/repository/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="kotlin-compiler-native-plugin" />
@@ -14,9 +14,9 @@
           <option name="loadBuiltInsFromDependencies" value="true" />
           <option name="friendPaths">
             <array>
+              <option value="$MODULE_DIR$/../../../kotlin-compiler-native-plugin/build/classes/java/main" />
               <option value="$MODULE_DIR$/../../../kotlin-compiler-native-plugin/build/classes/kotlin/main" />
               <option value="$MODULE_DIR$/../../../kotlin-compiler-native-plugin/build/tmp/kapt3/classes/main" />
-              <option value="$MODULE_DIR$/../../../kotlin-compiler-native-plugin/build/classes/java/main" />
             </array>
           </option>
           <option name="languageVersion" value="1.3" />
