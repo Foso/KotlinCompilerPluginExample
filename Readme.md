@@ -35,9 +35,9 @@ The plugin is only active when the build cache is changed. This is why you need 
 * <kbd>app</kbd> - A Kotlin Multiplatform project which applies a gradle plugin(compiler.plugin.helloworld) whichs triggers the compiler plugin. You have to build the gradle plugin from <kbd>plugin/gradle-plugin</kbd> first
 
 #### Plugin
- *  <kbd>kotlin-compiler-native-plugin</kbd> - This module cotains the Kotlin Compiler Plugin for native targets
- *  <kbd>kotlin-compiler-plugin</kbd> - This module cotains the Kotlin Compiler Plugin for JVM/JS targets
- *  <kbd>gradle-plugin</kbd> - This module cotains the gradle plugin which trigger the two compiler plugins
+ *  <kbd>kotlin-compiler-native-plugin</kbd> - This module contains the Kotlin Compiler Plugin for native targets
+ *  <kbd>kotlin-compiler-plugin</kbd> - This module contains the Kotlin Compiler Plugin for JVM/JS targets
+ *  <kbd>gradle-plugin</kbd> - This module contains the gradle plugin which trigger the two compiler plugins
 
 ## ✍️ Feedback
 
