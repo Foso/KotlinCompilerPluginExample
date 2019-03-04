@@ -13,7 +13,8 @@
 
 
 ## Introduction 🙋‍♂️
-This is an example project that shows how to create a Kotlin Compiler Plugin. At compile time a gradle plugin will trigger the compiler plugin.The plugin will print "Hello from" and the name of the file that is being compiled, as a compiler warning to the terminal log.
+
+This is an example project that shows how to create a Kotlin Compiler Plugin. At compile time a gradle plugin will trigger the compiler plugin. The plugin will print "Hello from" and the name of the file that is being compiled, as a compiler warning to the terminal log.
 
 <p>
     <img src ="https://raw.githubusercontent.com/Foso/JK_KotlinCompilerPluginHelloWorld/master/docs/screenshot.png" />
@@ -21,6 +22,9 @@ This is an example project that shows how to create a Kotlin Compiler Plugin. At
 </p>
 
 ## Usage
+
+> :information_source: Please be aware that the Kotlin Compiler still doesn’t have any stable API and there is no backwards compatibility guaranteed. Kotlin versions above 1.3.21 can have all totally different API.
+
 At first you need to compile the plugins:
 
 * Inside the <kbd>plugin</kbd> folder run `./gradlew :kotlin-compiler-native-plugin:publishToMavenLocal :kotlin-compiler-plugin:publishToMavenLocal :gradle-plugin:build` 
