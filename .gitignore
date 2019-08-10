@@ -8,4 +8,5 @@
 /plugin/kotlin-compiler-native-plugin/build
 /plugin/gradle-plugin/build
 /plugin/.idea
-/plugin/.gradle
+/.gradle
+.idea

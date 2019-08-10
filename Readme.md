@@ -7,7 +7,7 @@
 [![jCenter](https://img.shields.io/badge/v-1.0.0-green.svg
 )]()
 
-[![jCenter](https://img.shields.io/badge/Kotlin-1.3.30-green.svg
+[![jCenter](https://img.shields.io/badge/Kotlin-1.3.41-green.svg
 )](https://github.com/Foso/Sheasy/blob/master/LICENSE)
 
 
@@ -23,22 +23,17 @@ This is an example project that shows how to create a Kotlin Compiler Plugin. At
 
 ## Usage
 
-> :information_source: Please be aware that the Kotlin Compiler still doesn’t have any stable API and there is no backwards compatibility guaranteed. Kotlin versions above 1.3.30 can have all totally different API.
+> :information_source: Please be aware that the Kotlin Compiler still doesn’t have any stable API and there is no backwards compatibility guaranteed. Kotlin versions above 1.3.41 can have all totally different API.
 
-At first you need to compile the plugins:
-
-* Inside the <kbd>plugin</kbd> folder run `./gradlew :kotlin-compiler-native-plugin:publishToMavenLocal :kotlin-compiler-plugin:publishToMavenLocal :gradle-plugin:build` 
-
-Then:
-* Inside the <kbd>example</kbd> folder run `./gradlew :app:clean :app:build`
+* Inside the project folder run ` ./gradlew clean build` 
 
 The plugin is only active when the build cache is changed. This is why you need to run "clean" before building, when you want to see the log output again.
 
 ### 👷 Project Structure
-#### Example
-* <kbd>app</kbd> - A Kotlin Multiplatform project which applies a gradle plugin(compiler.plugin.helloworld) whichs triggers the compiler plugin. You have to build the gradle plugin from <kbd>plugin/gradle-plugin</kbd> first
+#### src
+* <kbd>app</kbd> - A Kotlin Multiplatform project which applies a gradle plugin(compiler.plugin.helloworld) whichs triggers the compiler plugin.
 
-#### Plugin
+#### buildSrc/compiler-plugin
  *  <kbd>kotlin-compiler-native-plugin</kbd> - This module contains the Kotlin Compiler Plugin for native targets
  *  <kbd>kotlin-compiler-plugin</kbd> - This module contains the Kotlin Compiler Plugin for JVM/JS targets
  *  <kbd>gradle-plugin</kbd> - This module contains the gradle plugin which trigger the two compiler plugins
