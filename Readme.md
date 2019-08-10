@@ -21,6 +21,12 @@ This is an example project that shows how to create a Kotlin Compiler Plugin. At
  
 </p>
 
+
+### Show some :heart: and star the repo to support the project
+
+[![GitHub stars](https://img.shields.io/github/stars/Foso/JK_KotlinCompilerPluginHelloWorld.svg?style=social&label=Star)](https://github.com/Foso/JK_KotlinCompilerPluginHelloWorld) [![GitHub forks](https://img.shields.io/github/forks/Foso/JK_KotlinCompilerPluginHelloWorld.svg?style=social&label=Fork)](https://github.com/Foso/JK_KotlinCompilerPluginHelloWorld/fork) [![GitHub watchers](https://img.shields.io/github/watchers/Foso/JK_KotlinCompilerPluginHelloWorld.svg?style=social&label=Watch)](https://github.com/Foso/JK_KotlinCompilerPluginHelloWorld) [![Twitter Follow](https://img.shields.io/twitter/follow/jklingenberg_.svg?style=social)](https://twitter.com/jklingenberg_)
+
+
 ## Usage
 
 > :information_source: Please be aware that the Kotlin Compiler still doesn’t have any stable API and there is no backwards compatibility guaranteed. Kotlin versions above 1.3.41 can have all totally different API.
