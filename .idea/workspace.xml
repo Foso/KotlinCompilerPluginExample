@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a10f73f8-32fa-44e5-8120-d4d3743b9e1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/buildSrc/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/compiler-plugin/gradle-plugin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/compiler-plugin/kotlin-native-plugin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/compiler-plugin/kotlin-plugin/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +21,7 @@
   <component name="ProjectId" id="1RZRt0inoz4FWoMpzl27WmIVhQV" />
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553883630829" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/buildSrc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="PsiViewer.ProjectComponent">
@@ -82,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569873258624</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add gitignore">
+      <created>1569873486207</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569873486207</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,7 +103,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add command line arguments" />
     <MESSAGE value="remove build folder from git" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove build folder from git" />
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
