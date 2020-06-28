@@ -7,7 +7,7 @@
 [![jCenter](https://img.shields.io/badge/v-1.0.0-green.svg
 )]()
 
-[![jCenter](https://img.shields.io/badge/Kotlin-1.3.60-green.svg
+[![jCenter](https://img.shields.io/badge/Kotlin-1.3.72-green.svg
 )](https://github.com/Foso/Sheasy/blob/master/LICENSE)
 
 
@@ -29,7 +29,7 @@ This is an example project that shows how to create a Kotlin Compiler Plugin. At
 
 ## Usage
 
-> :information_source: Please be aware that the Kotlin Compiler still doesn’t have any stable API and there is no backwards compatibility guaranteed. Kotlin versions above 1.3.60 can have all totally different API.
+> :information_source: Please be aware that the Kotlin Compiler still doesn’t have any stable API and there is no backwards compatibility guaranteed. Kotlin versions above 1.3.72 can have all totally different API.
 
 * Inside the project folder run ` ./gradlew clean build` 
 
