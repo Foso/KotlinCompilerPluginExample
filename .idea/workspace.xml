@@ -1,27 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a10f73f8-32fa-44e5-8120-d4d3743b9e1a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/JK_KotlinCompilerPluginHelloWorld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build.gradle" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>.21</find>
-    </findStrings>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinCompilerPluginExample" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinCompilerPluginExample" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="KotlinCompilerPluginExample" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="37t2okh5" />
+  </component>
   <component name="ProjectId" id="1RZRt0inoz4FWoMpzl27WmIVhQV" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553883630829" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../2018/kotlin" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="PsiViewer.ProjectComponent">
@@ -40,18 +86,51 @@
       <recent name="$PROJECT_DIR$/buildSrc/compiler-plugin/gradle-plugin" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager" selected="Remote.Unnamed">
+    <configuration name="KotlinCompilerPluginExample [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Remote" nameIsGenerated="true">
+      <module name="KotlinCompilerPluginExample" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.KotlinCompilerPluginExample [build]" />
+      <item itemvalue="Remote.Unnamed" />
+    </list>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Gradle.KotlinCompilerPluginExample [build]" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -92,19 +171,76 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add command line arguments" />
     <MESSAGE value="remove build folder from git" />
     <MESSAGE value="add gitignore" />
     <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="738" y="365" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596748951460">
+      <screen x="0" y="0" width="2560" height="1415" />
+    </state>
+    <state x="738" y="365" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1415/2560.0.2560.1440@0.0.2560.1415" timestamp="1596748951460" />
+    <state x="1062" y="426" width="431" height="558" key="#com.intellij.ide.util.MemberChooser" timestamp="1596746630088">
+      <screen x="0" y="0" width="2560" height="1415" />
+    </state>
+    <state x="1062" y="426" width="431" height="558" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1415/2560.0.2560.1440@0.0.2560.1415" timestamp="1596746630088" />
+    <state x="1019" y="601" width="517" height="213" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596746353151">
+      <screen x="0" y="0" width="2560" height="1415" />
+    </state>
+    <state x="1019" y="601" width="517" height="213" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1415/2560.0.2560.1440@0.0.2560.1415" timestamp="1596746353151" />
+    <state x="97" y="98" width="2366" height="1219" key="DiffContextDialog" timestamp="1596830941804">
+      <screen x="0" y="0" width="2560" height="1415" />
+    </state>
+    <state x="97" y="98" width="2366" height="1219" key="DiffContextDialog/0.0.2560.1415/2560.0.2560.1440@2560.0.2560.1440" timestamp="1596830941804" />
+    <state x="1063" y="465" width="430" height="480" key="FileChooserDialogImpl" timestamp="1596746685457">
+      <screen x="0" y="0" width="2560" height="1415" />
+    </state>
+    <state x="1063" y="465" width="430" height="480" key="FileChooserDialogImpl/0.0.2560.1415/2560.0.2560.1440@0.0.2560.1415" timestamp="1596746685457" />
+    <state width="1259" height="394" key="GridCell.Tab.0.bottom" timestamp="1596749005972">
+      <screen x="0" y="0" width="2560" height="1415" />
+    </state>
+    <state width="1259" height="394" key="GridCell.Tab.0.bottom/0.0.2560.1415/2560.0.2560.1440@0.0.2560.1415" timestamp="1596749005972" />
+    <state width="1259" height="394" key="GridCell.Tab.0.center" timestamp="1596749005972">
+      <screen x="0" y="0" width="2560" height="1415" />
+    </state>
+    <state width="1259" height="394" key="GridCell.Tab.0.center/0.0.2560.1415/2560.0.2560.1440@0.0.2560.1415" timestamp="1596749005972" />
+    <state width="1259" height="394" key="GridCell.Tab.0.left" timestamp="1596749005972">
+      <screen x="0" y="0" width="2560" height="1415" />
+    </state>
+    <state width="1259" height="394" key="GridCell.Tab.0.left/0.0.2560.1415/2560.0.2560.1440@0.0.2560.1415" timestamp="1596749005972" />
+    <state width="1259" height="394" key="GridCell.Tab.0.right" timestamp="1596749005972">
+      <screen x="0" y="0" width="2560" height="1415" />
+    </state>
+    <state width="1259" height="394" key="GridCell.Tab.0.right/0.0.2560.1415/2560.0.2560.1440@0.0.2560.1415" timestamp="1596749005972" />
+    <state x="963" y="434" width="634" height="546" key="find.popup" timestamp="1596748433567">
+      <screen x="0" y="0" width="2560" height="1415" />
+    </state>
+    <state x="963" y="434" width="634" height="546" key="find.popup/0.0.2560.1415/2560.0.2560.1440@0.0.2560.1415" timestamp="1596748433567" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/buildSrc/compiler-plugin/kotlin-plugin/src/main/java/de/jensklingenberg/CommonComponentRegistrar.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/buildSrc/compiler-plugin/gradle-plugin/src/main/java/de/jensklingenberg/gradle/HelloWorldGradlePlugin.kt</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
