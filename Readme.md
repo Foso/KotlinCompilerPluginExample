@@ -11,8 +11,12 @@
 
 ## Introduction 🙋‍♂️
 
-This is an Kotlin Compiler Plugin that enables Annotation-triggered method call logging.
+This is an example project that shows how to create a Kotlin Compiler Plugin. At compile time a gradle plugin will trigger the compiler plugin. The plugin will print "Hello from" and the name of the file that is being compiled, as a compiler warning to the terminal log.
 
+<p>
+    <img src ="https://raw.githubusercontent.com/Foso/JK_KotlinCompilerPluginHelloWorld/master/docs/screenshot.png" />
+ 
+</p>
 
 ### Show some :heart: and star the repo to support the project
 
