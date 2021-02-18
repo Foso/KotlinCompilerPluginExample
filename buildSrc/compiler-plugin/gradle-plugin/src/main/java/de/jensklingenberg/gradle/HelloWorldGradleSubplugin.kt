@@ -13,6 +13,13 @@ open class TestCompilerExtension {
 
 class HelloWorldGradleSubPlugin : KotlinCompilerPluginSupportPlugin {
 
+    companion object {
+        const val SERIALIZATION_GROUP_NAME = "de.jensklingenberg"
+        const val ARTIFACT_NAME = "kotlin-compiler-plugin"
+        const val NATIVE_ARTIFACT_NAME = "$ARTIFACT_NAME-native"
+        const val VERSION_NUMBER = "0.0.1"
+    }
+
     private var gradleExtension : TestCompilerExtension = TestCompilerExtension()
 
     override fun applyToCompilation(kotlinCompilation: KotlinCompilation<*>): Provider<List<SubpluginOption>> {
@@ -40,9 +47,9 @@ class HelloWorldGradleSubPlugin : KotlinCompilerPluginSupportPlugin {
     override fun getCompilerPluginId(): String = "helloWorldPlugin"
 
     override fun getPluginArtifact(): SubpluginArtifact = SubpluginArtifact(
-        groupId = "de.jensklingenberg",
-        artifactId = "kotlin-compiler-plugin",
-        version = "0.0.1" // remember to bump this version before any release!
+        groupId = SERIALIZATION_GROUP_NAME,
+        artifactId = ARTIFACT_NAME,
+        version = VERSION_NUMBER // remember to bump this version before any release!
     )
 
     override fun isApplicable(kotlinCompilation: KotlinCompilation<*>): Boolean {
@@ -50,8 +57,8 @@ class HelloWorldGradleSubPlugin : KotlinCompilerPluginSupportPlugin {
     }
 
     override fun getPluginArtifactForNative(): SubpluginArtifact = SubpluginArtifact(
-        groupId = "de.jensklingenberg",
-        artifactId = "kotlin-compiler-native-plugin",
-        version = "0.0.1" // remember to bump this version before any release!
+        groupId = SERIALIZATION_GROUP_NAME,
+        artifactId = NATIVE_ARTIFACT_NAME,
+        version = VERSION_NUMBER // remember to bump this version before any release!
     )
 }

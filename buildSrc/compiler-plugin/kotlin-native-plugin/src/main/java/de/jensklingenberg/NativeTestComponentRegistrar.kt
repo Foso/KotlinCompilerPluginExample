@@ -28,7 +28,5 @@ class NativeTestComponentRegistrar : ComponentRegistrar {
                 "*** Hello from ***" + it.path
             )
         }
-
-
     }
 }
