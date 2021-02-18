@@ -19,14 +19,14 @@ gradlePlugin {
     plugins {
         simplePlugin {
             id = "compiler.plugin.helloworld" // users will do `apply plugin: "compiler.plugin.helloworld"`
-            implementationClass = "de.jensklingenberg.gradle.HelloWorldGradlePlugin" // entry-point class
+            implementationClass = "de.jensklingenberg.gradle.HelloWorldGradleSubPlugin" // entry-point class
         }
     }
 }
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
-    implementation "org.jetbrains.kotlin:kotlin-gradle-plugin-api"
+    implementation "org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.4.21"
     compileOnly "com.google.auto.service:auto-service:1.0-rc4"
     kapt "com.google.auto.service:auto-service:1.0-rc4"
 }

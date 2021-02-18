@@ -1,35 +1,38 @@
 package de.jensklingenberg.gradle
 
-import com.google.auto.service.AutoService
 import org.gradle.api.Project
-import org.gradle.api.tasks.compile.AbstractCompile
-import org.jetbrains.kotlin.gradle.dsl.KotlinCommonOptions
+import org.gradle.api.provider.Provider
 import org.jetbrains.kotlin.gradle.plugin.KotlinCompilation
-import org.jetbrains.kotlin.gradle.plugin.KotlinGradleSubplugin
+import org.jetbrains.kotlin.gradle.plugin.KotlinCompilerPluginSupportPlugin
 import org.jetbrains.kotlin.gradle.plugin.SubpluginArtifact
 import org.jetbrains.kotlin.gradle.plugin.SubpluginOption
 
-@AutoService(KotlinGradleSubplugin::class) // don't forget!
-class HelloWorldGradleSubplugin : KotlinGradleSubplugin<AbstractCompile> {
-    override fun apply(
-        project: Project,
-        kotlinCompile: AbstractCompile,
-        javaCompile: AbstractCompile?,
-        variantData: Any?,
-        androidProjectHandler: Any?,
-        kotlinCompilation: KotlinCompilation<KotlinCommonOptions>?
-    ): List<SubpluginOption> {
-        val extension = project.extensions.findByType(TestCompilerExtension::class.java)
+open class TestCompilerExtension {
+    var enabled: Boolean = true
+}
+
+class HelloWorldGradleSubPlugin : KotlinCompilerPluginSupportPlugin {
+
+    private var gradleExtension : TestCompilerExtension = TestCompilerExtension()
+
+    override fun applyToCompilation(kotlinCompilation: KotlinCompilation<*>): Provider<List<SubpluginOption>> {
+        gradleExtension = kotlinCompilation.target.project.extensions.findByType(TestCompilerExtension::class.java)
             ?: TestCompilerExtension()
+        val project = kotlinCompilation.target.project
 
-        val enabledOption = SubpluginOption(key = "enabled", value = extension.enabled.toString())
-        return listOf(enabledOption)
-
+        return project.provider {
+            val options = mutableListOf<SubpluginOption>(SubpluginOption("enabled", gradleExtension.enabled.toString()))
+            options
+        }
     }
 
-    override fun isApplicable(project: Project, task: AbstractCompile) =
-        project.plugins.hasPlugin(HelloWorldGradlePlugin::class.java)
-
+    override fun apply(target: Project) {
+        target.extensions.create(
+            "helloWorld",
+            TestCompilerExtension::class.java
+        )
+        super.apply(target)
+    }
 
     /**
      * Just needs to be consistent with the key for CommandLineProcessor#pluginId
@@ -42,7 +45,11 @@ class HelloWorldGradleSubplugin : KotlinGradleSubplugin<AbstractCompile> {
         version = "0.0.1" // remember to bump this version before any release!
     )
 
-    override fun getNativeCompilerPluginArtifact(): SubpluginArtifact = SubpluginArtifact(
+    override fun isApplicable(kotlinCompilation: KotlinCompilation<*>): Boolean {
+        return true
+    }
+
+    override fun getPluginArtifactForNative(): SubpluginArtifact = SubpluginArtifact(
         groupId = "de.jensklingenberg",
         artifactId = "kotlin-compiler-native-plugin",
         version = "0.0.1" // remember to bump this version before any release!
