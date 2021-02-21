@@ -11,7 +11,7 @@ version = "1.0.0"
 
 install {
     repositories.mavenInstaller {
-        pom.artifactId = 'gradle-plugin'
+        pom.artifactId = archivesBaseName
     }
 }
 

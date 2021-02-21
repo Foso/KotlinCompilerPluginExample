@@ -28,7 +28,7 @@ class HelloWorldGradleSubPlugin : KotlinCompilerPluginSupportPlugin {
         val project = kotlinCompilation.target.project
 
         return project.provider {
-            val options = mutableListOf<SubpluginOption>(SubpluginOption("enabled", gradleExtension.enabled.toString()))
+            val options = mutableListOf(SubpluginOption("enabled", gradleExtension.enabled.toString()))
             options
         }
     }
