@@ -21,13 +21,10 @@ class HelloWorldGradleSubPlugin : KotlinCompilerPluginSupportPlugin {
     }
 
     private var gradleExtension : TestCompilerExtension = TestCompilerExtension()
-
     override fun applyToCompilation(kotlinCompilation: KotlinCompilation<*>): Provider<List<SubpluginOption>> {
-        gradleExtension = kotlinCompilation.target.project.extensions.findByType(TestCompilerExtension::class.java)
-            ?: TestCompilerExtension()
-        val project = kotlinCompilation.target.project
+        gradleExtension = kotlinCompilation.target.project.extensions.findByType(TestCompilerExtension::class.java) ?: TestCompilerExtension()
 
-        return project.provider {
+        return kotlinCompilation.target.project.provider {
             val options = mutableListOf(SubpluginOption("enabled", gradleExtension.enabled.toString()))
             options
         }
@@ -41,20 +38,17 @@ class HelloWorldGradleSubPlugin : KotlinCompilerPluginSupportPlugin {
         super.apply(target)
     }
 
-    /**
-     * Just needs to be consistent with the key for CommandLineProcessor#pluginId
-     */
     override fun getCompilerPluginId(): String = "helloWorldPlugin"
+
+    override fun isApplicable(kotlinCompilation: KotlinCompilation<*>): Boolean {
+        return true
+    }
 
     override fun getPluginArtifact(): SubpluginArtifact = SubpluginArtifact(
         groupId = SERIALIZATION_GROUP_NAME,
         artifactId = ARTIFACT_NAME,
         version = VERSION_NUMBER // remember to bump this version before any release!
     )
-
-    override fun isApplicable(kotlinCompilation: KotlinCompilation<*>): Boolean {
-        return true
-    }
 
     override fun getPluginArtifactForNative(): SubpluginArtifact = SubpluginArtifact(
         groupId = SERIALIZATION_GROUP_NAME,
