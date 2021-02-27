@@ -5,7 +5,7 @@ apply plugin: "maven"
 
 
 group = "de.jensklingenberg"
-archivesBaseName = "gradle-plugin"
+archivesBaseName = "compiler.gradleplugin.helloworld"
 version = "1.0.0"
 
 
@@ -18,7 +18,7 @@ install {
 gradlePlugin {
     plugins {
         simplePlugin {
-            id = "compiler.plugin.helloworld" // users will do `apply plugin: "compiler.plugin.helloworld"`
+            id = "compiler.gradleplugin.helloworld" // users will do `apply plugin: "compiler.plugin.helloworld"`
             implementationClass = "de.jensklingenberg.gradle.HelloWorldGradleSubPlugin" // entry-point class
         }
     }
