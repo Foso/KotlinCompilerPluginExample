@@ -7,7 +7,7 @@ apply plugin: "kotlin-kapt"
 
 
 group = "de.jensklingenberg"
-archivesBaseName = "kotlin-compiler-native-plugin"
+archivesBaseName = "kotlin-compiler-plugin-native"
 version = "0.0.1"
 
 install {
