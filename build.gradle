@@ -13,7 +13,7 @@ buildscript {
     }
 }
 plugins {
-    id 'org.jetbrains.kotlin.multiplatform' version '1.6.0-RC'
+    id 'org.jetbrains.kotlin.multiplatform' version '1.6.0'
 }
 apply plugin: 'compiler.gradleplugin.helloworld'
 
