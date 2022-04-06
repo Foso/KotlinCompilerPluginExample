@@ -2,6 +2,8 @@ plugins {
     id "org.jetbrains.kotlin.jvm"
     id "org.jetbrains.kotlin.kapt"
     id 'java-gradle-plugin'
+    id("maven-publish")
+
 }
 apply plugin: "maven"
 
@@ -28,4 +30,20 @@ gradlePlugin {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.6.20"
+}
+
+
+publishing {
+    publications {
+    }
+    repositories {
+        maven {
+            name = "MyRepo" //  optional target repository name
+            url = "http://my.org.server/repo/url"
+            credentials {
+                username = 'alice'
+                password = 'my-password'
+            }
+        }
+    }
 }

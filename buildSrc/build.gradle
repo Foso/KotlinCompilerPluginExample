@@ -20,8 +20,8 @@ compileTestKotlin {
 }
 
 build {
-    dependsOn ':compiler-plugin:kotlin-plugin:install'
+    dependsOn ':compiler-plugin:kotlin-plugin:publishToMavenLocal'
     dependsOn ':compiler-plugin:kotlin-native-plugin:publishToMavenLocal'
 
-    dependsOn ':compiler-plugin:gradle-plugin:install'
+    dependsOn ':compiler-plugin:gradle-plugin:publishToMavenLocal'
 }
