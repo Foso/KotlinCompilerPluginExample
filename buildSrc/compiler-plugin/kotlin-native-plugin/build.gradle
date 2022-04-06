@@ -1,5 +1,7 @@
 plugins {
     id("maven")
+    id("maven-publish")
+
     id "org.jetbrains.kotlin.jvm"
     id "org.jetbrains.kotlin.kapt"
 
@@ -30,4 +32,19 @@ compileKotlin {
 }
 compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
+}
+
+publishing {
+    publications {
+    }
+    repositories {
+        maven {
+            name = "MyRepo" //  optional target repository name
+            url = "http://my.org.server/repo/url"
+            credentials {
+                username = 'alice'
+                password = 'my-password'
+            }
+        }
+    }
 }
