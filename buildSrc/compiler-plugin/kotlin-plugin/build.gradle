@@ -1,10 +1,9 @@
 plugins {
     id("maven")
     id 'org.jetbrains.kotlin.jvm'
+    id "org.jetbrains.kotlin.kapt"
+
 }
-
-apply plugin: "kotlin-kapt"
-
 
 group = "de.jensklingenberg"
 archivesBaseName = "helloworld-compiler-plugin"

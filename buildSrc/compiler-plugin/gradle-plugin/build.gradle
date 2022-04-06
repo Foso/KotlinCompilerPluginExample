@@ -1,6 +1,8 @@
-apply plugin: "java-gradle-plugin"
-apply plugin: "org.jetbrains.kotlin.jvm"
-apply plugin: "kotlin-kapt"
+plugins {
+    id "org.jetbrains.kotlin.jvm"
+    id "org.jetbrains.kotlin.kapt"
+    id 'java-gradle-plugin'
+}
 apply plugin: "maven"
 
 
@@ -25,5 +27,5 @@ gradlePlugin {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.6.0"
+    implementation "org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.6.20"
 }
