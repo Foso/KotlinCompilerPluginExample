@@ -4,7 +4,7 @@
 [![jCenter](https://img.shields.io/badge/Apache-2.0-green.svg
 )](https://github.com/Foso/KotlinReactNativeMpp/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![jCenter](https://img.shields.io/badge/Kotlin-1.6.10-green.svg
+[![jCenter](https://img.shields.io/badge/Kotlin-1.6.20-green.svg
 )](https://github.com/Foso/Sheasy/blob/master/LICENSE)
 
 

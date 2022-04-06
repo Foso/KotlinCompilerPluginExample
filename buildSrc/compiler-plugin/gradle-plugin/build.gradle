@@ -5,7 +5,6 @@ plugins {
     id("maven-publish")
 
 }
-apply plugin: "maven"
 
 
 group = "de.jensklingenberg"
@@ -13,11 +12,6 @@ archivesBaseName = "compiler.gradleplugin.helloworld"
 version = "1.0.0"
 
 
-install {
-    repositories.mavenInstaller {
-        pom.artifactId = archivesBaseName
-    }
-}
 
 gradlePlugin {
     plugins {
@@ -35,15 +29,15 @@ dependencies {
 
 publishing {
     publications {
+        maven(MavenPublication) {
+            groupId = 'de.jensklingenberg'
+            artifactId = 'compiler.gradleplugin.helloworld'
+            version = '0.0.1'
+
+            from components.java
+        }
     }
     repositories {
-        maven {
-            name = "MyRepo" //  optional target repository name
-            url = "http://my.org.server/repo/url"
-            credentials {
-                username = 'alice'
-                password = 'my-password'
-            }
-        }
+
     }
 }

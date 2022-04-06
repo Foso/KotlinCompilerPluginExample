@@ -1,5 +1,5 @@
 plugins {
-    id("maven")
+
     id 'org.jetbrains.kotlin.jvm'
     id "org.jetbrains.kotlin.kapt"
     id("maven-publish")
@@ -10,11 +10,6 @@ group = "de.jensklingenberg"
 archivesBaseName = "helloworld-compiler-plugin"
 version = "0.0.1"
 
-install {
-    repositories.mavenInstaller {
-        pom.artifactId = archivesBaseName
-    }
-}
 
 repositories {
     mavenLocal()
@@ -37,15 +32,15 @@ compileTestKotlin {
 
 publishing {
     publications {
+        maven(MavenPublication) {
+            groupId = 'de.jensklingenberg'
+            artifactId = 'helloworld-compiler-plugin'
+            version = '0.0.1'
+
+            from components.java
+        }
     }
     repositories {
-        maven {
-            name = "MyRepo" //  optional target repository name
-            url = "http://my.org.server/repo/url"
-            credentials {
-                username = 'alice'
-                password = 'my-password'
-            }
-        }
+
     }
 }
