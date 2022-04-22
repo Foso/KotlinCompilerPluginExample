@@ -40,9 +40,6 @@ The plugin is only active when the build cache is changed. This is why you need 
  *  <kbd>kotlin-compiler-plugin</kbd> - This module contains the Kotlin Compiler Plugin for JVM/JS targets
  *  <kbd>gradle-plugin</kbd> - This module contains the gradle plugin which trigger the two compiler plugins
 
-## ✍️ Feedback
-
-Feel free to send feedback on [Twitter](https://twitter.com/jklingenberg_) or [file an issue](https://github.com/foso/JK_KotlinCompilerPluginHelloWorld/issues/new). Feature requests are always welcome.
 
 ## Useful resources
 [https://github.com/bnorm/kotlin-ir-plugin-template](https://github.com/bnorm/kotlin-ir-plugin-template)
@@ -50,6 +47,13 @@ Feel free to send feedback on [Twitter](https://twitter.com/jklingenberg_) or [f
 [Writing Your Second Kotlin Compiler Plugin, Part 1 — Project Setup](https://blog.bnorm.dev/writing-your-second-compiler-plugin-part-1)
 
 [Experimenting with the Kotlin Compiler by Jossi Wolf, Snapp Mobile EN](https://www.youtube.com/watch?v=Y6gEA-nS2uQ)
+
+[Crash course on the Kotlin compiler | 1. Frontend: Parsing phase](https://medium.com/google-developer-experts/crash-course-on-the-kotlin-compiler-1-frontend-parsing-phase-9898490d922b)
+
+## ✍️ Feedback
+
+Feel free to send feedback on [Twitter](https://twitter.com/jklingenberg_) or [file an issue](https://github.com/foso/KotlinCompilerPluginExample/issues/new). Feature requests are always welcome.
+
 
 ### Find this project useful ? :heart:
 * Support it by clicking the :star: button on the upper right of this page. :v:
