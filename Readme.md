@@ -48,6 +48,7 @@ Feel free to send feedback on [Twitter](https://twitter.com/jklingenberg_) or [f
 [https://github.com/bnorm/kotlin-ir-plugin-template](https://github.com/bnorm/kotlin-ir-plugin-template)
 
 [Writing Your Second Kotlin Compiler Plugin, Part 1 — Project Setup](https://blog.bnorm.dev/writing-your-second-compiler-plugin-part-1)
+
 [Experimenting with the Kotlin Compiler by Jossi Wolf, Snapp Mobile EN](https://www.youtube.com/watch?v=Y6gEA-nS2uQ)
 
 ### Find this project useful ? :heart:
