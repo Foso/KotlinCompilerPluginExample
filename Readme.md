@@ -44,6 +44,10 @@ The plugin is only active when the build cache is changed. This is why you need 
 
 Feel free to send feedback on [Twitter](https://twitter.com/jklingenberg_) or [file an issue](https://github.com/foso/JK_KotlinCompilerPluginHelloWorld/issues/new). Feature requests are always welcome.
 
+## Useful resources
+[https://github.com/bnorm/kotlin-ir-plugin-template](https://github.com/bnorm/kotlin-ir-plugin-template)
+
+[Writing Your Second Kotlin Compiler Plugin, Part 1 — Project Setup](https://blog.bnorm.dev/writing-your-second-compiler-plugin-part-1)
 
 ### Find this project useful ? :heart:
 * Support it by clicking the :star: button on the upper right of this page. :v:
