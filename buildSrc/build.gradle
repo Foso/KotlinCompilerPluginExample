@@ -22,5 +22,5 @@ build {
     dependsOn ':compiler-plugin:kotlin-plugin:publishToMavenLocal'
     dependsOn ':compiler-plugin:kotlin-native-plugin:publishToMavenLocal'
 
-    dependsOn ':compiler-plugin:gradle-plugin:publishToMavenLocal'
+    dependsOn ':gradle-plugin:publishToMavenLocal'
 }
