@@ -42,6 +42,8 @@ The plugin is only active when the build cache is changed. This is why you need 
 
 
 ## Useful resources
+[The Road to the New Kotlin Compiler](https://www.youtube.com/watch?v=iTdJJq_LyoY)
+
 [https://github.com/bnorm/kotlin-ir-plugin-template](https://github.com/bnorm/kotlin-ir-plugin-template)
 
 [Writing Your Second Kotlin Compiler Plugin, Part 1 — Project Setup](https://blog.bnorm.dev/writing-your-second-compiler-plugin-part-1)
