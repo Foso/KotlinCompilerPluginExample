@@ -38,9 +38,10 @@ The plugin is only active when the build cache is changed. This is why you need 
 #### buildSrc/compiler-plugin
  *  <kbd>kotlin-compiler-native-plugin</kbd> - This module contains the Kotlin Compiler Plugin for native targets
  *  <kbd>kotlin-compiler-plugin</kbd> - This module contains the Kotlin Compiler Plugin for JVM/JS targets
- *  <kbd>gradle-plugin</kbd> - This module contains the gradle plugin which trigger the two compiler plugins
-
-
+ 
+#### buildSrc/gradle-plugin
+*  <kbd>gradle-plugin</kbd> - This module contains the gradle plugin which trigger the two compiler plugins
+*  
 ## Useful resources
 [The Road to the New Kotlin Compiler](https://www.youtube.com/watch?v=iTdJJq_LyoY)
 
