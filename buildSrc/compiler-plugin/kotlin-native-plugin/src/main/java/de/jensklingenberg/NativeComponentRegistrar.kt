@@ -11,7 +11,7 @@ import org.jetbrains.kotlin.compiler.plugin.ComponentRegistrar
 import org.jetbrains.kotlin.config.CompilerConfiguration
 
 @AutoService(ComponentRegistrar::class)
-class NativeTestComponentRegistrar : ComponentRegistrar {
+class NativeComponentRegistrar : ComponentRegistrar {
 
 
     override fun registerProjectComponents(project: MockProject, configuration: CompilerConfiguration) {
