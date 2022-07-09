@@ -23,7 +23,7 @@ gradlePlugin {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.7.0"
+    implementation "org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.7.10"
 }
 
 
