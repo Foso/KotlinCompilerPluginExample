@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
+
 plugins {
     id("maven-publish")
 
@@ -16,9 +18,9 @@ repositories {
 }
 
 dependencies {
-    compileOnly "org.jetbrains.kotlin:kotlin-compiler"
-    compileOnly "com.google.auto.service:auto-service:1.0"
-    kapt "com.google.auto.service:auto-service:1.0"
+    compileOnly "org.jetbrains.kotlin:kotlin-compiler:1.8.0"
+    compileOnly "com.google.auto.service:auto-service:1.0.1"
+    kapt "com.google.auto.service:auto-service:1.0.1"
 }
 
 compileKotlin {
@@ -40,5 +42,11 @@ publishing {
     }
     repositories {
 
+    }
+}
+
+tasks.withType(KotlinCompilationTask).configureEach {
+    compilerOptions {
+        freeCompilerArgs.add("-opt-in=org.jetbrains.kotlin.compiler.plugin.ExperimentalCompilerApi")
     }
 }

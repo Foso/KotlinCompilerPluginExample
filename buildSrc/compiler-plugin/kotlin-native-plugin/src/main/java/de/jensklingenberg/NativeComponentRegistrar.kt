@@ -1,21 +1,22 @@
 package de.jensklingenberg
 
 import com.google.auto.service.AutoService
-import com.intellij.mock.MockProject
 import de.jensklingenberg.common.KEY_ENABLED
 import org.jetbrains.kotlin.cli.common.CLIConfigurationKeys
 import org.jetbrains.kotlin.cli.common.config.kotlinSourceRoots
 import org.jetbrains.kotlin.cli.common.messages.CompilerMessageSeverity
 import org.jetbrains.kotlin.cli.common.messages.MessageCollector
-import org.jetbrains.kotlin.compiler.plugin.ComponentRegistrar
+import org.jetbrains.kotlin.compiler.plugin.CompilerPluginRegistrar
 import org.jetbrains.kotlin.config.CompilerConfiguration
 
-@AutoService(ComponentRegistrar::class)
-class NativeComponentRegistrar : ComponentRegistrar {
+@AutoService(CompilerPluginRegistrar::class)
 
+class NativeComponentRegistrar : CompilerPluginRegistrar() {
 
-    override fun registerProjectComponents(project: MockProject, configuration: CompilerConfiguration) {
+    override val supportsK2: Boolean
+        get() = true
 
+    override fun ExtensionStorage.registerExtensions(configuration: CompilerConfiguration) {
         if (configuration[KEY_ENABLED] == false) {
             return
         }
@@ -29,4 +30,5 @@ class NativeComponentRegistrar : ComponentRegistrar {
             )
         }
     }
+
 }

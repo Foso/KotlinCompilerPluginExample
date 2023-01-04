@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
+
 plugins {
 
     id 'org.jetbrains.kotlin.jvm'
@@ -16,10 +18,9 @@ repositories {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib"
-    compileOnly "org.jetbrains.kotlin:kotlin-compiler-embeddable"
-    compileOnly "com.google.auto.service:auto-service:1.0"
-    kapt "com.google.auto.service:auto-service:1.0"
+    compileOnly "org.jetbrains.kotlin:kotlin-compiler-embeddable:1.8.0"
+    compileOnly "com.google.auto.service:auto-service:1.0.1"
+    kapt "com.google.auto.service:auto-service:1.0.1"
 }
 
 compileKotlin {
@@ -42,5 +43,11 @@ publishing {
     }
     repositories {
 
+    }
+}
+
+tasks.withType(KotlinCompilationTask).configureEach {
+    compilerOptions {
+        freeCompilerArgs.add("-opt-in=org.jetbrains.kotlin.compiler.plugin.ExperimentalCompilerApi")
     }
 }

@@ -4,7 +4,7 @@
 [![jCenter](https://img.shields.io/badge/Apache-2.0-green.svg
 )](https://github.com/Foso/KotlinReactNativeMpp/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![jCenter](https://img.shields.io/badge/Kotlin-1.7.10-green.svg
+[![jCenter](https://img.shields.io/badge/Kotlin-1.8.0-green.svg
 )](https://github.com/Foso/Sheasy/blob/master/LICENSE)
 
 
@@ -26,7 +26,7 @@ This is an example project that shows how to create a Kotlin Compiler Plugin. At
 ## Usage
 
 > :information_source: Please be aware that the Kotlin Compiler still doesn’t have any stable API and there is no
-> backwards compatibility guaranteed. Kotlin versions above 1.7.10 can have a totally different API.
+> backwards compatibility guaranteed. Kotlin versions above 1.8.0 can have a totally different API.
 
 * Inside the project folder run ` ./gradlew clean build` 
 

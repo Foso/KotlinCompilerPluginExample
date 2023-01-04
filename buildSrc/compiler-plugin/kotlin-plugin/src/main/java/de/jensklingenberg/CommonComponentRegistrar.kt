@@ -5,17 +5,16 @@ import org.jetbrains.kotlin.cli.common.CLIConfigurationKeys
 import org.jetbrains.kotlin.cli.common.config.kotlinSourceRoots
 import org.jetbrains.kotlin.cli.common.messages.CompilerMessageSeverity
 import org.jetbrains.kotlin.cli.common.messages.MessageCollector
-import org.jetbrains.kotlin.com.intellij.mock.MockProject
-import org.jetbrains.kotlin.compiler.plugin.ComponentRegistrar
+import org.jetbrains.kotlin.compiler.plugin.CompilerPluginRegistrar
 import org.jetbrains.kotlin.config.CompilerConfiguration
 
-@AutoService(ComponentRegistrar::class)
-class CommonComponentRegistrar : ComponentRegistrar {
-    override fun registerProjectComponents(
-        project: MockProject,
-        configuration: CompilerConfiguration
-    ) {
+@AutoService(CompilerPluginRegistrar::class)
+class CommonComponentRegistrar : CompilerPluginRegistrar() {
 
+    override val supportsK2: Boolean
+        get() = true
+
+    override fun ExtensionStorage.registerExtensions(configuration: CompilerConfiguration) {
         if (configuration[KEY_ENABLED] == false) {
             return
         }
@@ -27,6 +26,5 @@ class CommonComponentRegistrar : ComponentRegistrar {
                 "*** Hello from ***" + it.path
             )
         }
-
     }
 }
