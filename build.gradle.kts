@@ -11,7 +11,7 @@ buildscript {
     }
 }
 plugins {
-    id("org.jetbrains.kotlin.multiplatform") version "1.8.0"
+    id("org.jetbrains.kotlin.multiplatform") version "1.8.0" apply false
 }
 apply(plugin = "compiler.gradleplugin.helloworld")
 
@@ -23,7 +23,6 @@ configure<de.jensklingenberg.gradle.TestCompilerExtension> {
 }
 
 allprojects {
-
     repositories {
         mavenLocal()
         mavenCentral()
@@ -33,35 +32,3 @@ allprojects {
     }
 }
 
-
-kotlin {
-    jvm()
-    linuxX64("linux")
-    js()
-    sourceSets {
-        val commonMain by getting {
-            dependencies {
-
-            }
-        }
-
-        val jsMain by getting {
-
-            dependencies {
-
-            }
-        }
-
-        val jvmMain by getting {
-
-
-            dependencies {
-
-            }
-        }
-        val linuxMain by getting {
-
-        }
-
-    }
-}
