@@ -2,10 +2,8 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 
 plugins {
     id("maven-publish")
-
-    id "org.jetbrains.kotlin.jvm"
-    id "org.jetbrains.kotlin.kapt"
-
+    id("org.jetbrains.kotlin.jvm")
+    id("org.jetbrains.kotlin.kapt")
 }
 
 group = "de.jensklingenberg"
@@ -39,9 +37,6 @@ publishing {
 
             from components.java
         }
-    }
-    repositories {
-
     }
 }
 
