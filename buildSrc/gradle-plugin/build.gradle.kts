@@ -40,9 +40,9 @@ publishing {
             //artifact(tasks["dokkaJar"])
 
             pom {
-                name.set(project.name)
-                description.set("KSP Plugin for Ktorfit")
-                url.set("https://github.com/Foso/Ktorfit")
+                name.set("gradle-plugin")
+                description.set("KotlinCompilerPluginExamplet")
+                url.set("https://github.com/Foso/KotlinCompilerPluginExample")
 
                 licenses {
                     license {
@@ -51,8 +51,8 @@ publishing {
                     }
                 }
                 scm {
-                    url.set("https://github.com/Foso/Ktorfit")
-                    connection.set("scm:git:git://github.com/Foso/Ktorfit.git")
+                    url.set("https://github.com/Foso/KotlinCompilerPluginExample")
+                    connection.set("scm:git:git://github.com/Foso/KotlinCompilerPluginExample.git")
                 }
                 developers {
                     developer {
