@@ -13,11 +13,7 @@ kotlin {
     linuxX64("linux")
     js()
     sourceSets {
-        val commonMain by getting {
-            dependencies {
-
-            }
-        }
+        val commonMain by getting {}
 
         val jsMain by getting {
 
@@ -43,4 +39,6 @@ kotlin {
 
 tasks.build {
     dependsOn(":kotlin-native-plugin:publishToMavenLocal")
+    dependsOn(":kotlin-plugin:publishToMavenLocal")
+
 }

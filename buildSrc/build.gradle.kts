@@ -20,7 +20,6 @@ tasks.withType<KotlinCompile> {
 
 
 tasks.build {
-    dependsOn(":compiler-plugin:kotlin-plugin:publishToMavenLocal")
 
     dependsOn(":gradle-plugin:publishToMavenLocal")
 }
