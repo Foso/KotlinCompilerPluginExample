@@ -40,8 +40,8 @@ publishing {
             //artifact(tasks["dokkaJar"])
 
             pom {
-                name.set("gradle-plugin")
-                description.set("KotlinCompilerPluginExamplet")
+                name.set("compiler.gradleplugin.helloworld")
+                description.set("KotlinCompilerPluginExample")
                 url.set("https://github.com/Foso/KotlinCompilerPluginExample")
 
                 licenses {

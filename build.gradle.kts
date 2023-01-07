@@ -7,7 +7,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("de.jensklingenberg:compiler.gradleplugin.helloworld:1.0.0")
+        classpath("de.jensklingenberg:gradle-plugin:1.0.0")
     }
 }
 plugins {
