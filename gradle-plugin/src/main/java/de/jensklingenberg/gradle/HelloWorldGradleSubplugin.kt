@@ -50,9 +50,4 @@ class HelloWorldGradleSubPlugin : KotlinCompilerPluginSupportPlugin {
         version = VERSION_NUMBER // remember to bump this version before any release!
     )
 
-    override fun getPluginArtifactForNative(): SubpluginArtifact = SubpluginArtifact(
-        groupId = SERIALIZATION_GROUP_NAME,
-        artifactId = NATIVE_ARTIFACT_NAME,
-        version = VERSION_NUMBER // remember to bump this version before any release!
-    )
 }

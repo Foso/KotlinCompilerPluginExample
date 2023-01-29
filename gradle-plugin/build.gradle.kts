@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm")
-    kotlin("kapt")
+    kotlin("jvm") version("1.8.0")
+    kotlin("kapt") version("1.8.0")
     id("java-gradle-plugin")
     `maven-publish`
 }
@@ -9,6 +9,15 @@ group = "de.jensklingenberg"
 version = "1.0.0"
 
 
+allprojects {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        maven("https://maven.google.com")
+        maven("https://plugins.gradle.org/m2/")
+        google()
+    }
+}
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.8.0")
 }

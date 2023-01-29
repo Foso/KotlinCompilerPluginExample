@@ -18,9 +18,7 @@ apply(plugin = "compiler.gradleplugin.helloworld")
 System.setProperty("kotlin.compiler.execution.strategy", "in-process") // For debugging
 
 
-configure<de.jensklingenberg.gradle.TestCompilerExtension> {
-    enabled = true
-}
+
 
 allprojects {
     repositories {
