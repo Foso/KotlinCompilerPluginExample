@@ -4,6 +4,6 @@ includeBuild("gradle-plugin") {
         substitute(module("de.jensklingenberg:gradle-plugin:1.0.0")).using(project(":"))
     }
 }
-include(":kotlin-plugin")
+includeBuild("compiler-plugin")
 
 include(":lib")

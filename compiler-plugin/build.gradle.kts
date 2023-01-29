@@ -1,13 +1,14 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     kotlin("jvm") version("1.8.0")
     kotlin("kapt") version("1.8.0")
-    id("java-gradle-plugin")
+    id("com.vanniktech.maven.publish") version("0.23.1")
     `maven-publish`
+    signing
+
 }
-
-group = "de.jensklingenberg"
-version = "1.0.0"
-
 
 allprojects {
     repositories {
@@ -18,18 +19,23 @@ allprojects {
         google()
     }
 }
-dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.8.0")
+mavenPublishing {
+    publishToMavenCentral()
+
 }
 
-gradlePlugin {
-    plugins {
+group = "de.jensklingenberg"
+version = "0.0.1"
+val autoService = "1.0.1"
+dependencies {
+    compileOnly("com.google.auto.service:auto-service:$autoService")
+    kapt("com.google.auto.service:auto-service:$autoService")
+    compileOnly("org.jetbrains.kotlin:kotlin-compiler-embeddable:1.8.0")
+    testImplementation("dev.zacsweers.kctfork:core:0.2.1")
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("com.google.truth:truth:1.1.3")
+    testImplementation(kotlin("reflect"))
 
-        create("simplePlugin") {
-            id = "compiler.gradleplugin.helloworld" // users will do `apply plugin: "compiler.plugin.helloworld"`
-            implementationClass = "de.jensklingenberg.gradle.HelloWorldGradleSubPlugin" // entry-point class
-        }
-    }
 }
 
 tasks.register("sourcesJar", Jar::class) {
@@ -46,17 +52,16 @@ publishing {
         create<MavenPublication>("default") {
             from(components["java"])
             artifact(tasks["sourcesJar"])
-            //artifact(tasks["dokkaJar"])
 
             pom {
-                name.set("compiler.gradleplugin.helloworld")
-                description.set("KotlinCompilerPluginExample")
+                name.set("compiler-plugin")
+                description.set("Hello World Compiler Plugin")
                 url.set("https://github.com/Foso/KotlinCompilerPluginExample")
 
                 licenses {
                     license {
                         name.set("Apache License 2.0")
-                        url.set("https://github.com/Foso/Ktorfit/blob/master/LICENSE.txt")
+                        url.set("https://github.com/Foso/KotlinCompilerPluginExample/blob/master/LICENSE.txt")
                     }
                 }
                 scm {
@@ -65,8 +70,8 @@ publishing {
                 }
                 developers {
                     developer {
-                        name.set("Jens Klingenberg")
-                        url.set("https://github.com/Foso")
+                        name.set("Developer Name")
+                        url.set("Developer URL")
                     }
                 }
             }
@@ -95,8 +100,16 @@ publishing {
     }
 }
 
-
-tasks.build {
-    dependsOn(":kotlin-plugin:publishToMavenLocal")
-
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(11))
+    }
 }
+
+tasks.withType<KotlinCompile> {
+    kotlinOptions.jvmTarget = "1.8"
+}
+tasks.withType<KotlinCompilationTask<*>>().configureEach {
+    compilerOptions.freeCompilerArgs.add("-opt-in=org.jetbrains.kotlin.compiler.plugin.ExperimentalCompilerApi")
+}
+

@@ -36,8 +36,3 @@ kotlin {
     }
 }
 
-
-tasks.build {
-    dependsOn(":kotlin-plugin:publishToMavenLocal")
-
-}
