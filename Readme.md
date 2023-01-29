@@ -33,14 +33,9 @@ This is an example project that shows how to create a Kotlin Compiler Plugin. At
 The plugin is only active when the build cache is changed. This is why you need to run "clean" before building, when you want to see the log output again.
 
 ### 👷 Project Structure
-#### src
 * <kbd>lib</kbd> - A Kotlin Multiplatform project which applies a gradle plugin(compiler.plugin.helloworld) whichs triggers the compiler plugin.
-
-#### kotlin-compiler-plugin
- *  <kbd>kotlin-compiler-plugin</kbd> - This module contains the Kotlin Compiler Plugin
- 
-#### gradle-plugin
-*  <kbd>gradle-plugin</kbd> - This module contains the gradle plugin which trigger the two compiler plugins
+*  <kbd>kotlin-compiler-plugin</kbd> - This module contains the Kotlin Compiler Plugin
+*  <kbd>gradle-plugin</kbd> - This module contains the gradle plugin which trigger the compiler plugin
 *  
 ## Useful resources
 [The Road to the New Kotlin Compiler](https://www.youtube.com/watch?v=iTdJJq_LyoY)
