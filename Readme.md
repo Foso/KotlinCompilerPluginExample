@@ -4,7 +4,7 @@
 [![jCenter](https://img.shields.io/badge/Apache-2.0-green.svg
 )](https://github.com/Foso/KotlinReactNativeMpp/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![jCenter](https://img.shields.io/badge/Kotlin-1.8.0-green.svg
+[![jCenter](https://img.shields.io/badge/Kotlin-1.8.10-green.svg
 )](https://github.com/Foso/Sheasy/blob/master/LICENSE)
 
 
@@ -14,21 +14,21 @@
 This is an example project that shows how to create a Kotlin Compiler Plugin. At compile time a gradle plugin will trigger the compiler plugin. The plugin will print "Hello from" and the name of the file that is being compiled, as a compiler warning to the terminal log.
 
 <p>
-    <img src ="https://raw.githubusercontent.com/Foso/JK_KotlinCompilerPluginHelloWorld/master/docs/screenshot.png" />
+    <img src ="https://raw.githubusercontent.com/Foso/KotlinCompilerPluginExample/master/docs/screenshot.png" />
  
 </p>
 
 ### Show some :heart: and star the repo to support the project
 
-[![GitHub stars](https://img.shields.io/github/stars/Foso/JK_KotlinCompilerPluginHelloWorld.svg?style=social&label=Star)](https://github.com/Foso/JK_KotlinCompilerPluginHelloWorld) [![GitHub forks](https://img.shields.io/github/forks/Foso/JK_KotlinCompilerPluginHelloWorld.svg?style=social&label=Fork)](https://github.com/Foso/JK_KotlinCompilerPluginHelloWorld/fork) [![GitHub watchers](https://img.shields.io/github/watchers/Foso/JK_KotlinCompilerPluginHelloWorld.svg?style=social&label=Watch)](https://github.com/Foso/JK_KotlinCompilerPluginHelloWorld) [![Twitter Follow](https://img.shields.io/twitter/follow/jklingenberg_.svg?style=social)](https://twitter.com/jklingenberg_)
+[![GitHub stars](https://img.shields.io/github/stars/Foso/KotlinCompilerPluginExample.svg?style=social&label=Star)](https://github.com/Foso/KotlinCompilerPluginExample) [![GitHub forks](https://img.shields.io/github/forks/Foso/KotlinCompilerPluginExample.svg?style=social&label=Fork)](https://github.com/Foso/KotlinCompilerPluginExample/fork) [![GitHub watchers](https://img.shields.io/github/watchers/Foso/KotlinCompilerPluginExample.svg?style=social&label=Watch)](https://github.com/Foso/KotlinCompilerPluginExample) [![Twitter Follow](https://img.shields.io/twitter/follow/jklingenberg_.svg?style=social)](https://twitter.com/jklingenberg_)
 
 
 ## Usage
 
 > :information_source: Please be aware that the Kotlin Compiler still doesn’t have any stable API and there is no
-> backwards compatibility guaranteed. Kotlin versions above 1.8.0 can have a totally different API.
+> backwards compatibility guaranteed. Kotlin versions above 1.8.10 can have a totally different API.
 
-* Inside the project folder run ` ./gradlew clean build` 
+* Inside the project folder run `./gradlew clean build` 
 
 The plugin is only active when the build cache is changed. This is why you need to run "clean" before building, when you want to see the log output again.
 

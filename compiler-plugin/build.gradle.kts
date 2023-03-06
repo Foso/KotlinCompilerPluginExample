@@ -2,8 +2,8 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version("1.8.0")
-    kotlin("kapt") version("1.8.0")
+    kotlin("jvm") version("1.8.10")
+    kotlin("kapt") version("1.8.10")
     id("com.vanniktech.maven.publish") version("0.23.1")
     `maven-publish`
     signing
@@ -30,7 +30,7 @@ val autoService = "1.0.1"
 dependencies {
     compileOnly("com.google.auto.service:auto-service:$autoService")
     kapt("com.google.auto.service:auto-service:$autoService")
-    compileOnly("org.jetbrains.kotlin:kotlin-compiler-embeddable:1.8.0")
+    compileOnly("org.jetbrains.kotlin:kotlin-compiler-embeddable:1.8.10")
     testImplementation("dev.zacsweers.kctfork:core:0.2.1")
     testImplementation("junit:junit:4.13.2")
     testImplementation("com.google.truth:truth:1.1.3")
@@ -113,3 +113,4 @@ tasks.withType<KotlinCompilationTask<*>>().configureEach {
     compilerOptions.freeCompilerArgs.add("-opt-in=org.jetbrains.kotlin.compiler.plugin.ExperimentalCompilerApi")
 }
 
+//./gradlew clean :lib:compileKotlinJvm --no-daemon -Dorg.gradle.debug=true -Dkotlin.compiler.execution.strategy="in-process" -Dkotlin.daemon.jvm.options="-Xdebug,-Xrunjdwp:transport=dt_socket,address=5005,server=y,suspend=n"
