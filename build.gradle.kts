@@ -13,7 +13,7 @@ buildscript {
     }
 }
 plugins {
-    id("org.jetbrains.kotlin.multiplatform") version "1.8.10" apply false
+    id("org.jetbrains.kotlin.multiplatform") version "1.8.20" apply false
 }
 apply(plugin = "compiler.gradleplugin.helloworld")
 

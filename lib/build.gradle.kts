@@ -1,5 +1,5 @@
 plugins {
-    id("org.jetbrains.kotlin.multiplatform") version "1.8.10"
+    id("org.jetbrains.kotlin.multiplatform") version "1.8.20"
 }
 apply(plugin = "compiler.gradleplugin.helloworld")
 
