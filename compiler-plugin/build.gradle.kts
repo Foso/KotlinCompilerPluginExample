@@ -2,8 +2,8 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version("1.8.22")
-    kotlin("kapt") version("1.8.22")
+    kotlin("jvm") version("1.9.10") 
+    kotlin("kapt") version("1.9.10")
     id("com.vanniktech.maven.publish") version("0.23.1")
     `maven-publish`
     signing
@@ -30,7 +30,7 @@ val autoService = "1.0.1"
 dependencies {
     compileOnly("com.google.auto.service:auto-service:$autoService")
     kapt("com.google.auto.service:auto-service:$autoService")
-    compileOnly("org.jetbrains.kotlin:kotlin-compiler-embeddable:1.8.22")
+    compileOnly("org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.10")
     testImplementation("dev.zacsweers.kctfork:core:0.2.1")
     testImplementation("junit:junit:4.13.2")
     testImplementation("com.google.truth:truth:1.1.3")
@@ -38,20 +38,10 @@ dependencies {
 
 }
 
-tasks.register("sourcesJar", Jar::class) {
-    group = "build"
-    description = "Assembles Kotlin sources"
-
-    archiveClassifier.set("sources")
-    from(sourceSets.main.get().allSource)
-    dependsOn(tasks.classes)
-}
-
 publishing {
     publications {
         create<MavenPublication>("default") {
             from(components["java"])
-            artifact(tasks["sourcesJar"])
 
             pom {
                 name.set("compiler-plugin")
@@ -102,7 +92,7 @@ publishing {
 
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(11))
+        languageVersion.set(JavaLanguageVersion.of(8))
     }
 }
 
