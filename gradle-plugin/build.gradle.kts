@@ -19,7 +19,7 @@ allprojects {
     }
 }
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.9.10")
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.9.21")
 }
 
 gradlePlugin {

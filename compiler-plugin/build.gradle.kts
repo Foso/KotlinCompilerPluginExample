@@ -27,14 +27,14 @@ mavenPublishing {
 
 group = "de.jensklingenberg"
 version = "0.0.1"
-val autoService = "1.0.1"
+val autoService = "1.1.1"
 dependencies {
     compileOnly("com.google.auto.service:auto-service:$autoService")
     kapt("com.google.auto.service:auto-service:$autoService")
     compileOnly("org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.23")
     testImplementation("dev.zacsweers.kctfork:core:0.2.1")
     testImplementation("junit:junit:4.13.2")
-    testImplementation("com.google.truth:truth:1.1.3")
+    testImplementation("com.google.truth:truth:1.1.5")
     testImplementation(kotlin("reflect"))
 
 }
