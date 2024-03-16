@@ -25,15 +25,15 @@ This is an example project that shows how to create a Kotlin Compiler Plugin. At
 
 ## Usage
 
-> :information_source: Please be aware that the Kotlin Compiler still doesn’t have any stable API and there is no
-> backwards compatibility guaranteed. Kotlin versions above 1.9.10 can have a totally different API.
+> :information_source: Please be aware that the Kotlin Compiler still doesn't have any stable API and there is no
+> backwards compatibility guaranteed. Kotlin versions above 1.9.23 can have a totally different API.
 
 * Inside the project folder run `./gradlew clean build` 
 
 The plugin is only active when the build cache is changed. This is why you need to run "clean" before building, when you want to see the log output again.
 
 ### 👷 Project Structure
-*  <kbd>lib</kbd> - A Kotlin Multiplatform project which applies a gradle plugin(compiler.plugin.helloworld) whichs triggers the compiler plugin.
+*  <kbd>lib</kbd> - A Kotlin Multiplatform project which applies a gradle plugin(compiler.plugin.helloworld) which triggers the compiler plugin.
 *  <kbd>compiler-plugin</kbd> - This module contains the Kotlin Compiler Plugin
 *  <kbd>gradle-plugin</kbd> - This module contains the gradle plugin which trigger the compiler plugin
 
