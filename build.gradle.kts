@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.vanniktech:gradle-maven-publish-plugin:0.25.3")
+        classpath("com.vanniktech:gradle-maven-publish-plugin:0.28.0")
         classpath("de.jensklingenberg:gradle-plugin:1.0.0")
     }
 }
