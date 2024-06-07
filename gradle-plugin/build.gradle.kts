@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm") version("1.9.10")
-    kotlin("kapt") version("1.9.10")
+    kotlin("jvm") version("2.0.0")
+    kotlin("kapt") version("2.0.0")
     id("java-gradle-plugin")
     `maven-publish`
 }
@@ -19,7 +19,7 @@ allprojects {
     }
 }
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin-api:1.9.21")
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin-api:2.0.0")
 }
 
 gradlePlugin {

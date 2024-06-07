@@ -9,3 +9,17 @@ expect object Platform {
 }
 
 fun hello(): String = "Hello from ${Platform.name}"
+
+class _MyTestProvider : MyTest{
+    override fun print(){
+        println("Hello from _MyTestProvider")
+    }
+}
+
+interface MyTest{
+    fun print()
+}
+
+fun <T> create(myTestProvider: MyTest? = null): MyTest {
+    return myTestProvider!!
+}

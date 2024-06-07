@@ -1,6 +1,8 @@
 package de.jensklingenberg
 
 import com.google.auto.service.AutoService
+import de.jensklingenberg.transform.ExampleIrGenerationExtension
+import org.jetbrains.kotlin.backend.common.extensions.IrGenerationExtension
 import org.jetbrains.kotlin.cli.common.CLIConfigurationKeys
 import org.jetbrains.kotlin.cli.common.config.kotlinSourceRoots
 import org.jetbrains.kotlin.cli.common.messages.CompilerMessageSeverity
@@ -26,5 +28,10 @@ class CommonComponentRegistrar : CompilerPluginRegistrar() {
                 "*** Hello from ***" + it.path
             )
         }
+
+        val logging = true
+        IrGenerationExtension.registerExtension(
+            ExampleIrGenerationExtension(DebugLogger(logging, messageCollector))
+        )
     }
 }

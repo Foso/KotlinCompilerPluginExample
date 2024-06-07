@@ -9,5 +9,9 @@ actual object Platform {
 }
 
 fun main() {
-
+    /**
+     * The compiler plugin will replace this with create<MyTest>(_MyTestProvider)
+     */
+    val myTest = create<MyTest>()
+    myTest.print()
 }

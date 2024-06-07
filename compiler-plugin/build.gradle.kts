@@ -2,8 +2,8 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompilationTask
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version("1.9.23")
-    kotlin("kapt") version("1.9.23")
+    kotlin("jvm") version("2.0.0")
+    kotlin("kapt") version("2.0.0")
     id("com.vanniktech.maven.publish") version("0.23.1")
     `maven-publish`
     signing
@@ -31,10 +31,10 @@ val autoService = "1.1.1"
 dependencies {
     compileOnly("com.google.auto.service:auto-service:$autoService")
     kapt("com.google.auto.service:auto-service:$autoService")
-    compileOnly("org.jetbrains.kotlin:kotlin-compiler-embeddable:1.9.23")
-    testImplementation("dev.zacsweers.kctfork:core:0.2.1")
+    compileOnly("org.jetbrains.kotlin:kotlin-compiler-embeddable:2.0.0")
+    testImplementation("dev.zacsweers.kctfork:core:0.4.1")
     testImplementation("junit:junit:4.13.2")
-    testImplementation("com.google.truth:truth:1.1.5")
+    testImplementation("com.google.truth:truth:1.4.2")
     testImplementation(kotlin("reflect"))
 
 }
