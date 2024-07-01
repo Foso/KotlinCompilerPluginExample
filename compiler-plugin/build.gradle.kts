@@ -32,7 +32,7 @@ dependencies {
     compileOnly("com.google.auto.service:auto-service:$autoService")
     kapt("com.google.auto.service:auto-service:$autoService")
     compileOnly("org.jetbrains.kotlin:kotlin-compiler-embeddable:2.0.0")
-    testImplementation("dev.zacsweers.kctfork:core:0.4.1")
+    testImplementation("dev.zacsweers.kctfork:core:0.5.1")
     testImplementation("junit:junit:4.13.2")
     testImplementation("com.google.truth:truth:1.4.2")
     testImplementation(kotlin("reflect"))
